@@ -18,9 +18,10 @@ export default function BentoGrid() {
     return (
         <div className={styles.BentoGrid}>
             <span className={styles.sectionTitle}>PROJECTS</span>
+            <ProjectBento link={'https://github.com/Adriantobi/neovim_config/'} title={'Neovim Config'} description={'A neovim configuration built using kickstarter.nvim and specialised to suit my needs.'} image={'/neovimConfig.png'} />
+            <ProjectBento link={'https://nooodle.vercel.app/app'} title={'Noodle'} description={'Noodle is a study platform that alowys you to choose from a variety of spaces, as well as listen to spotify and set tasks.'} image={'/noodle.png'} />
             <ProjectBento link={'http://ce-wallington.vercel.app/'} title={'Christ Embassy Wallington'} description={'A church website built using Nextjs and prisma to display news and announcements.'} image={'/christEmbassyWallington.png'} />
             <ProjectBento link={'https://www.epsomandewellhub.com/'} title={'Epsom And Ewell Hub'} description={'A redesign and development of the Epsom and Ewell Hub official website, built using Wix.'} image={'/epsomAndEwellHub.png'} />
-            <ProjectBento link={'https://nooodle.vercel.app/app'} title={'Noodle'} description={'Noodle is a study platform that alowys you to choose from a variety of spaces, as well as listen to spotify and set tasks.'} image={'/noodle.png'} />
             <ProjectBento link={'https://adriantobi.github.io/'} title={'Photography Portfolio'} description={'A simple portfolio to display my film photography.'} image={'/photographyPortfolio.jpg'} />
             <ProjectBento link={'https://adriantdv4.vercel.app/'} title={'adriantd.com (v4)'} description={'A recent portfolio built using Nextjs displaying skills and experience. Styled using CSS Modules and deployed with vercel.'} image={'/adriansPortfoliov4.png'} />
             <ProjectBento link={'https://adriantdv3.netlify.app/'} title={'adriantd.com (v3)'} description={'A HTML portfolio, crafted in 2022. Witness the raw code and pixel-perfect design that fueled my early web development journey.'} image={'/adriansPortfoliov3.png'} />
