@@ -1,6 +1,7 @@
 .BentoGrid {
   display: grid;
   max-width: 645px;
+  width: 540px;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
   justify-content: center;
