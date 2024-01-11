@@ -1,0 +1,82 @@
+.GridItem {
+  overflow: hidden;
+  display: flex;
+  background: rgb(var(--grid-item));
+  border-radius: 16px;
+  flex-direction: column;
+  padding: 15px;
+  min-width: 150px;
+  min-height: 75px;
+  cursor: pointer;
+  gap: 8px;
+  transition: background ease-in-out 150ms;
+}
+
+.GridItem a {
+  display: inherit;
+  flex-direction: inherit;
+  gap: inherit;
+  height: 100%;
+  width: 100%;
+}
+
+.GridItem:hover {
+  background: rgb(var(--grid-item-hover));
+}
+
+.projectCard, .jobCard {
+  background: transparent;
+  border: 1px solid transparent;
+}
+
+.socialCard {
+  background: rgb(var(--grid-item), .25);
+  border: 1px solid rgb(var(--grid-item), .95);
+}
+
+.socialCard:hover {
+  background: rgb(var(--grid-item), .5);
+}
+
+.projectCard:hover, .jobCard:hover {
+  background: rgb(var(--grid-item), .25);
+  border: 1px solid rgb(var(--grid-item), .95);
+}
+
+.headingWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.iconWrapper {
+  width: max-content;
+  height: max-content;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonInfo {
+  display: flex;
+  font-size: 14px;
+  justify-content: center;
+  width: fit-content;
+  align-items: center;
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: #fff;
+}
+
+.contentWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.text {
+  font-size: 14px;
+  opacity: .5;
+}
