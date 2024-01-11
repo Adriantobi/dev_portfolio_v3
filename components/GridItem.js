@@ -41,13 +41,13 @@ export default function GridItem({ size, type, icon, header, subheader, content,
                                 unoptimized
                             />
                         </div>
-                        {size !== '2x1' ? <span className={styles.buttonInfo} style={{backgroundColor: `#${buttonColour}`}}>{buttonContent}</span> : null}
+                        {size !== '2x1' ? <span className={styles.buttonInfo} style={{backgroundColor: `rgb(${buttonColour})`, color: buttonColour === '0, 0, 0' ? 'rgb(255, 255, 255)' : buttonColour === '255, 255, 255' ? 'rgb(0, 0, 0)' : ''}}>{buttonContent}</span> : null}
                     </div> : null }
                     { header || subheader || content || (buttonContent && size === '2x1') ? <div className={styles.contentWrapper}>
                         <span>{header}</span>
                         <span className={styles.text}>{subheader}</span>
                         <span className={styles.text}>{content}</span>
-                        {size === '2x1' ? <span className={styles.buttonInfo} style={{backgroundColor: `#${buttonColour}`}}>{buttonContent}</span> : null}
+                        {size === '2x1' ? <span className={styles.buttonInfo} style={{backgroundColor: `rgb(${buttonColour})`, color: buttonColour === '0, 0, 0' ? 'rgb(255, 255, 255)' : buttonColour === '255, 255, 255' ? 'rgb(0, 0, 0)' : ''}}>{buttonContent}</span> : null}
                     </div> : null }
                     {children}
                 </Link>
@@ -68,13 +68,13 @@ export default function GridItem({ size, type, icon, header, subheader, content,
                         unoptimized
                     />
                 </div>
-                {size !== '2x1' ? <span className={styles.buttonInfo} style={{backgroundColor: `#${buttonColour}`}}>{buttonContent}</span> : null}
+                {size !== '2x1' ? <span className={styles.buttonInfo} style={{backgroundColor: `rgb(${buttonColour})`, color: buttonColour === '0, 0, 0' ? 'rgb(255, 255, 255)' : buttonColour === '255, 255, 255' ? 'rgb(0, 0, 0)' : ''}}>{buttonContent}</span> : null}
             </div> : null }
             { header || subheader || content || (buttonContent && size === '2x1') ? <div className={styles.contentWrapper}>
                 <span>{header}</span>
                 <span className={styles.text}>{subheader}</span>
                 <span className={styles.text}>{content}</span>
-                {size === '2x1' ? <span className={styles.buttonInfo} style={{backgroundColor: `#${buttonColour}`}}>{buttonContent}</span> : null}
+                {size === '2x1' ? <span className={styles.buttonInfo} style={{backgroundColor: `rgb(${buttonColour})`, color: buttonColour === '0, 0, 0' ? 'rgb(255, 255, 255)' : buttonColour === '255, 255, 255' ? 'rgb(0, 0, 0)' : ''}}>{buttonContent}</span> : null}
             </div> : null }
             {children}
         </div>

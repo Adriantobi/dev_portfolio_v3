@@ -68,6 +68,13 @@
   z-index: 100;
   display: flex;
   gap: 1rem;
+  font-size: 14px;
+  align-items: center;
+}
+
+.socials a {
+  display: flex;
+  align-items: center;
 }
 
 .socials a:hover {

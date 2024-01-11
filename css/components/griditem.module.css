@@ -35,7 +35,7 @@
 }
 
 .socialCard:hover {
-  background: rgb(var(--grid-item), .5);
+  background: rgb(var(--grid-item), .5) !important;
 }
 
 .projectCard:hover, .jobCard:hover {
@@ -52,7 +52,7 @@
 .iconWrapper {
   width: max-content;
   height: max-content;
-  border-radius: 10px;
+  border-radius: 8px;
   overflow: hidden;
   display: flex;
   justify-content: center;
