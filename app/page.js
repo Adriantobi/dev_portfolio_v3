@@ -20,7 +20,7 @@ export default function Home() {
           <span className={styles.currentEmployment}>Junior Developer at <TextLink href={'https://www.carbonandfinch.com/'} target={'_blank'} title={'Carbon & Finch'} /></span>
           <span className={styles.description}>
             <p>
-              I’m an aspiring software engineer specializing in building and designing astonishing digital experiences for users.
+              I’m a software engineer specializing in building and designing astonishing digital experiences for users.
             </p>
           </span>
           <span className={styles.socials}>
