@@ -36,7 +36,7 @@ export default function Home() {
           <div className={styles.skills}>
             <span className={styles.skillsHeader}>
               <span className={styles.codeIcon}>
-                <Code width={12} height={12} stroke='#fff'/>
+                <Code width={12} height={12}/>
               </span>
               <p>Languages</p>
             </span>
