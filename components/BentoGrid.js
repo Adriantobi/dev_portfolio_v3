@@ -11,7 +11,6 @@ export default function BentoGrid() {
     const [showBento, setShowBento] = useState(false)
 
     const changeBento = () => {
-        console.log(`Showbento: ${showBento}`)
         setShowBento(!showBento)
     }
 

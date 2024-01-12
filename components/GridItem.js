@@ -26,9 +26,79 @@ export default function GridItem({ size, type, icon, header, subheader, content,
         window.addEventListener('resize', mobileSize)
     }, [])
 
+    const getGridItemProperties = (size) => {
+        if (size === '2x2') {
+            return {
+                gridArea: 'span 2/span 2/span 2/span 2',
+                minWidth: '315px',
+                minHeight: '150px',
+            }
+        } if (size === '2x1') {
+            if (mobile) {
+                return {
+                    gridArea: 'span 1/span 1/span 1/span 1',
+                    minWidth: '150px',
+                    minHeight: '150px',
+                }
+            }
+            return {
+                gridArea: 'span 2/span 1/span 2/span 1',
+                minWidth: '150px',
+                minHeight: '150px',
+            }
+        } if (size === '1x2') {
+            return {
+                gridArea: 'span 1/span 2/span 1/span 2',
+                minWidth: '315px',
+                minHeight: '75px',
+            }
+        } if (size === '2x4') {
+            return {
+                gridArea: 'span 4/span 2/span 4/span 2',
+                minWidth: '315px',
+                minHeight: '315px',
+            }
+        } if (size === '3x4') {
+            if (mobile) {
+                return {
+                    gridArea: 'span 4/span 2/span 4/span 2',
+                    minWidth: 'auto',
+                    minHeight: 'auto',
+                }
+            }
+
+            return {
+                gridArea: 'span 4/span 3/span 4/span 3',
+                minWidth: 'auto',
+                minHeight: 'auto',
+            }
+        } if (size === '3x3') {
+            if (mobile) {
+                return {
+                    gridArea: 'span 3/span 2/span 3/span 2',
+                    minWidth: 'auto',
+                    minHeight: 'auto',
+                }
+            }
+
+            return {
+                gridArea: 'span 3/span 3/span 3/span 3',
+                minWidth: 'auto',
+                minHeight: 'auto',
+            }
+        }
+    }
+
+    const gridItem = getGridItemProperties(size)
+
     if (link) {
         return (
-            <motion.div initial={{ scale: 0 }} animate={{scale: 1}} transition={{type:'spring', stiffness:'330', damping:'35', duration: 0.15}} className={`${styles.GridItem} ${type === 'project' ? `${styles.projectCard}` : type === 'job' ? `${styles.jobCard}` : type === 'social' ? `${styles.socialCard}` : ''}`} style={{gridRow: size === '2x2' ? 'span 2/span 2' : size === '2x1' ? 'span 2/span 2' : size === '2x4' ? 'span 4/span 4' : size === '3x4' ? 'span 4/span 4' : size === '3x3' ? 'span 3/span 3' : size === '1x2' ? 'span 1/ span 1' : '', minWidth: size === '2x2' ? '315px' : size === '2x1' ? '150px' : size === '2x4' ? '315px' : size === '3x4' ? 'auto' : size === '3x3' ? 'auto' : size === '1x2' ? '315px' : '', gridColumn: size === '2x2' ? 'span 2/span 2' : size === '2x1' ? 'span 1/span 1' : size === '2x4' ? 'span 2/span 2' : (size === '3x4' && !mobile) ? 'span 3/span 3' : (size === '3x4' || size === '3x3') && mobile ? 'span 2/span2' : (size === '3x3' && !mobile) ? 'span 3/span 3' : size === '1x2' ? 'span 2/span 2' : '' , minHeight: size === '2x2' ? '150px' : size === '2x1' ? '150px' : size === '2x4' ? '315px' : size === '3x4' ? 'auto' : size === '3x3' ? 'auto' : size === '1x2' ? '75px' : ''}}>
+            <motion.div 
+                initial={{ scale: 0 }} animate={{scale: 1}} 
+                transition={{type:'spring', stiffness:'330', damping:'35', duration: 0.15}} 
+                className={`${styles.GridItem} ${type === 'project' ? `${styles.projectCard}` : type === 'job' ? `${styles.jobCard}` : type === 'social' ? `${styles.socialCard}` : ''}`} 
+                style={{gridArea: gridItem.gridArea, minWidth: gridItem.minWidth, minHeight: gridItem.minHeight}}
+            >
                 <Link href={link} target='_blank'>        
                     { icon || (buttonContent && size !== '2x1') ? <div className={styles.headingWrapper}>
                         <div className={styles.iconWrapper}>
@@ -56,7 +126,7 @@ export default function GridItem({ size, type, icon, header, subheader, content,
     }
 
     return (
-        <div className={`${styles.GridItem} ${type === 'project' ? `${styles.projectCard}` : type === 'job' ? `${styles.jobCard}` : type === 'social' ? `${styles.socialCard}` : ''}`} style={{gridRow: size === '2x2' ? 'span 2/span 2' : size === '2x1' ? 'span 2/span 2' : size === '2x4' ? 'span 4/span 4' : size === '3x4' ? 'span 4/span 4' : size === '3x3' ? 'span 3/span 3' : size === '1x2' ? 'span 1/ span 1' : '', minWidth: size === '2x2' ? '315px' : size === '2x1' ? '150px' : size === '2x4' ? '315px' : size === '3x4' ? 'auto' : size === '3x3' ? 'auto' : size === '1x2' ? '315px' : '', gridColumn: size === '2x2' ? 'span 2/span 2' : size === '2x1' ? 'span 1/span 1' : size === '2x4' ? 'span 2/span 2' : (size === '3x4' && !mobile) ? 'span 3/span 3' : (size === '3x4' || size === '3x3') && mobile ? 'span 2/span2' : (size === '3x3' && !mobile) ? 'span 3/span 3' : size === '1x2' ? 'span 2/span 2' : '' , minHeight: size === '2x2' ? '150px' : size === '2x1' ? '150px' : size === '2x4' ? '315px' : size === '3x4' ? 'auto' : size === '3x3' ? 'auto' : size === '1x2' ? '75px' : ''}}>
+        <div className={`${styles.GridItem} ${type === 'project' ? `${styles.projectCard}` : type === 'job' ? `${styles.jobCard}` : type === 'social' ? `${styles.socialCard}` : ''}`} style={{gridArea: gridItem.gridArea, minWidth: gridItem.minWidth,minHeight: gridItem.minHeight}}>
             { icon || (buttonContent && size !== '2x1') ? <div className={styles.headingWrapper}>
                 <div className={styles.iconWrapper}>
                     <Image
