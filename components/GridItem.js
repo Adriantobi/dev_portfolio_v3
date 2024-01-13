@@ -1,12 +1,12 @@
 'use client'
 
 import Image from 'next/image'
-import { motion, stagger } from 'framer-motion'
+import { color, motion } from 'framer-motion'
 import styles from '../css/components/griditem.module.css'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
 
-export default function GridItem({ size, type, icon, header, subheader, content, buttonContent, buttonColour, link, children }) {
+export default function GridItem({ size, type, icon, header, subheader, content, buttonContent, buttonColour, link, colourBg,  children }) {
     const [mobile, setMobile] = useState(false)
 
     useEffect(() => {
@@ -97,7 +97,7 @@ export default function GridItem({ size, type, icon, header, subheader, content,
                 initial={{ scale: 0 }} animate={{scale: 1}} 
                 transition={{type:'spring', stiffness:'330', damping:'35', duration: 0.15}} 
                 className={`${styles.GridItem} ${type === 'project' ? `${styles.projectCard}` : type === 'job' ? `${styles.jobCard}` : type === 'social' ? `${styles.socialCard}` : ''}`} 
-                style={{gridArea: gridItem.gridArea, minWidth: gridItem.minWidth, minHeight: gridItem.minHeight}}
+                style={{gridArea: gridItem.gridArea, minWidth: gridItem.minWidth, minHeight: gridItem.minHeight, '--bgColour': colourBg ? buttonColour : 'var(--grid-item)'}}
             >
                 <Link href={link} target='_blank'>        
                     { icon || (buttonContent && size !== '2x1') ? <div className={styles.headingWrapper}>

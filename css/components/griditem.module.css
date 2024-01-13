@@ -30,12 +30,12 @@
 }
 
 .socialCard {
-  background: rgb(var(--grid-item), .25);
-  border: 1px solid rgb(var(--grid-item), .95);
+  background: rgb(var(--bgColour), .25);
+  border: 1px solid rgb(var(--bgColour), .95);
 }
 
 .socialCard:hover {
-  background: rgb(var(--grid-item), .5) !important;
+  background: rgb(var(--bgColour), .5) !important;
 }
 
 .projectCard:hover, .jobCard:hover {
