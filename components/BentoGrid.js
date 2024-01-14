@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import styles from '../css/components/bentogrid.module.css'
 import GridItem from './GridItem'
 import JobBento from './JobBento'
@@ -8,11 +8,15 @@ import ProjectBento from './ProjectBento'
 import TextLink from './TextLink'
 
 export default function BentoGrid() {
-    const [showBento, setShowBento] = useState(false)
+    const [showBento, setShowBento] = useState(localStorage.getItem('showBento') === 'true' ? true : false)
 
     const changeBento = () => {
         setShowBento(!showBento)
     }
+
+    useEffect(() => {
+        localStorage.setItem('showBento', showBento)
+    }, [showBento])
 
     return (
         <div className={styles.BentoGrid}>
