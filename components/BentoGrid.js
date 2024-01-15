@@ -8,15 +8,16 @@ import ProjectBento from './ProjectBento'
 import TextLink from './TextLink'
 
 export default function BentoGrid() {
-    const [showBento, setShowBento] = useState(localStorage.getItem('showBento') === 'true' ? true : false)
+    const [showBento, setShowBento] = useState()
 
     const changeBento = () => {
         setShowBento(!showBento)
+        localStorage.setItem('showBento', JSON.stringify(!showBento))
     }
 
     useEffect(() => {
-        localStorage.setItem('showBento', showBento)
-    }, [showBento])
+        setShowBento(window.localStorage.getItem('showBento') === 'true' ? true : false)
+    }, [])
 
     return (
         <div className={styles.BentoGrid}>
