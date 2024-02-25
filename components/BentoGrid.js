@@ -23,7 +23,7 @@ export default function BentoGrid() {
         <div className={styles.BentoGrid}>
             <span className={styles.sectionTitle}>PROJECTS</span>
             <ProjectBento link={'https://github.com/Adriantobi/neovim_config/'} title={'Neovim Config'} description={'A neovim configuration built using kickstart.nvim and specialised to suit my needs as a developer.'} image={'/neovimConfig.png'} />
-            <ProjectBento link={'https://github.com/Adriantobi/cuery/'} title={'Cuery CLI Tool'} description={'Cuery is a versatile command line utility designed to streamline the execution of commands by leveraging aliases stored in a configuration file.'} image={'/cueryCliTool.gif'} />
+            <ProjectBento link={'https://github.com/Adriantobi/cuery/'} title={'Cuery CLI Tool'} description={'Cuery is a versatile command line utility designed to streamline the execution of commands by leveraging aliases stored in a configuration file.'} image={'/cueryCliTool.gif'} unoptimized={true} />
             <ProjectBento link={'https://nooodle.vercel.app/app'} title={'Noodle'} description={'Noodle is a study platform that allows you to choose from a variety of spaces, as well as listen to spotify and set tasks.'} image={'/noodle.png'} />
             <ProjectBento link={'http://ce-wallington.vercel.app/'} title={'Christ Embassy Wallington'} description={'A church website built using Nextjs and prisma to display news and announcements.'} image={'/christEmbassyWallington.png'} />
             <ProjectBento link={'https://www.epsomandewellhub.com/'} title={'Epsom And Ewell Hub'} description={'A redesign and development of the Epsom and Ewell Hub official website, built using Wix.'} image={'/epsomAndEwellHub.png'} />

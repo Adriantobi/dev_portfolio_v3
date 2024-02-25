@@ -5,7 +5,7 @@ import GridItem from "./GridItem"
 import Link from 'next/link'
 import { ArrowRight } from 'lucide-react'
 
-export default function ProjectBento({ title, description, image, link, github }) {
+export default function ProjectBento({ title, description, image, link, unoptimized }) {
     return (
         <GridItem size='3x4' type={'project'}>
             <div className={styles.content}>
@@ -27,6 +27,7 @@ export default function ProjectBento({ title, description, image, link, github }
                         sizes='100vw'
                         alt={`${title} image`}
                         style={{width: '100%', height: 'auto'}}
+                        unoptimized={unoptimized ? unoptimized : false }
                     />
                 </div>
                 </Link>
