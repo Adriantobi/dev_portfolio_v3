@@ -11,7 +11,7 @@
   --blur-rgb: 181, 183, 179;
   --grid-item: 210, 210, 212;
   --grid-item-hover: 203, 203, 203;
-  --tech-stack: 76, 143, 226;
+  --tech-stack: 211, 211, 211;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -52,7 +52,7 @@
     --blur-rgb: 35, 35, 45;
     --grid-item: 50, 48, 52;
     --grid-item-hover: 45, 43, 47;
-    --tech-stack: 2, 92, 177;
+    --tech-stack: 36, 36, 36;
 
     --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
     --secondary-glow: linear-gradient(
