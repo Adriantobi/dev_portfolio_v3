@@ -1,3 +1,4 @@
+"use client";
 import styles from "../css/components/projectbento.module.css";
 
 import Image from "next/image";
@@ -21,25 +22,10 @@ export default function ProjectBento({
   link,
   unoptimized,
 }: ProjectBentoProps) {
-  const savedCurrentImages = JSON.parse(
-    localStorage.getItem("currentImages") || "{}",
-  );
-  const [currentImage, setCurrentImage] = useState(
-    savedCurrentImages[title] || 0,
-  );
+  const [currentImage, setCurrentImage] = useState(0);
   const imagesScrollRef = useRef<HTMLDivElement>(null);
   const scrollableRef = useRef<HTMLDivElement>(null);
   const [scrollPosition, setScrollPosition] = useState(0);
-
-  useEffect(() => {
-    if (images.length > 1) {
-      const currentImages = JSON.parse(
-        localStorage.getItem("currentImages") || "{}",
-      );
-      currentImages[title] = currentImage;
-      localStorage.setItem("currentImages", JSON.stringify(currentImages));
-    }
-  }, [currentImage, title, images]);
 
   useEffect(() => {
     const handleScroll = () => {
