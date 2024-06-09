@@ -123,6 +123,7 @@ export default function GridItem({
   };
 
   const gridItem = getGridItemProperties(size);
+  const [hovering, setHovering] = useState(false);
 
   if (link) {
     return (
@@ -140,8 +141,13 @@ export default function GridItem({
           gridArea: gridItem?.gridArea,
           minWidth: gridItem?.minWidth,
           minHeight: gridItem?.minHeight,
-          "--bgColour": colourBg ? buttonColour : "var(--grid-item)",
+          backgroundColor: colourBg
+            ? `rgba(${colourBg}, ${hovering ? 0.5 : 0.25})`
+            : `rgba(var(--grid-item), ${hovering ? 0.5 : 0.25})`,
+          border: colourBg ? `1px solid rgba(${colourBg}, 0.95)` : `1px solid rgba(var(--grid-item), 0.95)`,
         }}
+        onMouseEnter={() => setHovering(true)}
+        onMouseLeave={() => setHovering(false)}
       >
         <Link href={link} target="_blank">
           {icon || (buttonContent && size !== "2x1") ? (

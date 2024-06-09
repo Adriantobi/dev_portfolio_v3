@@ -30,7 +30,12 @@ export default function BentoGrid() {
         description={
           "A neovim configuration built using kickstart.nvim and specialised to suit my needs as a developer."
         }
-        images={["/nvimConfig1.png", "/nvimConfig2.png", "/nvimConfig3.png", "/nvimConfig4.png"]}
+        images={[
+          "/nvimConfig1.png",
+          "/nvimConfig2.png",
+          "/nvimConfig3.png",
+          "/nvimConfig4.png",
+        ]}
         unoptimized={true}
       />
       <ProjectBento
