@@ -1,0 +1,122 @@
+.content,
+.content a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 14px;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.titleLink {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 1.25em;
+  width: max-content;
+}
+
+.innerWrapper {
+  display: flex;
+  flex-direction: column;
+  transition: all 250ms ease-in-out;
+}
+
+.innerWrapper span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.innerWrapper svg {
+  transition: all 250ms ease-in-out;
+}
+
+.titleLink:hover .innerWrapper,
+.content:hover .innerWrapper {
+  transform: translateY(-1.25em);
+  opacity: 0.75;
+}
+
+.titleLink:hover .innerWrapper svg,
+.content:hover .innerWrapper svg {
+  transform: rotate(-45deg);
+}
+
+.description {
+  opacity: 0.5;
+}
+
+.imageWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: max-content;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.imageBento {
+  display: flex;
+  gap: 8px;
+  border-radius: 0;
+  position: relative;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.miniImageWrapper {
+  width: 100%;
+  overflow: auto;
+  display: flex;
+}
+
+.miniImagesContainer {
+  display: flex;
+  width: fit-content;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.imageSlide {
+  width: auto !important;
+  height: 40px;
+  border-radius: 6px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: border 150ms ease-in-out;
+}
+
+.imageSlide:hover > img {
+  transform: scale(1.2);
+}
+
+.imageSlide img {
+  height: 100% !important;
+  width: auto !important;
+  transition: transform 150ms ease-in-out;
+}
+
+.currentImage {
+  border: 2px solid rgb(var(--blur-rgb));
+}
+
+.miniImageWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.miniImageWrapper {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

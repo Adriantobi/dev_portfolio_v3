@@ -1,0 +1,46 @@
+.textLinkWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+}
+
+.TextLink {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: max-content;
+  height: 1.25em;
+  overflow: hidden;
+}
+
+.innerWrapper {
+  display: flex;
+  width: max-content;
+  height: 100%;
+  flex-direction: column;
+  transition: all 250ms ease-in-out;
+}
+
+.TextLink:hover {
+  opacity: .75;
+}
+
+.TextLink:hover .innerWrapper {
+  transform: translateY(-1.2em);
+}
+
+.TextLink:hover .innerWrapper span svg {
+  transform: rotate(-45deg);
+}
+
+.TextLink span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.TextLink svg {
+  transition: all 250ms ease-in-out;
+}

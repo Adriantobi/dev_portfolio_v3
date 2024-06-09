@@ -1,0 +1,38 @@
+.BentoGrid {
+  display: grid;
+  max-width: 645px;
+  width: 540px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  justify-content: center;
+  z-index: 100;
+}
+
+.sectionTitle, .more {
+  grid-column: 1 / -1;
+  z-index: 100;
+  font-size: 16px;
+  padding-left: 15px;
+  cursor: default;
+  font-weight: bold;
+}
+
+.more {
+  cursor: pointer;
+  font-weight: inherit;
+  font-size: 14px;
+}
+
+@media (width < 1160px) {
+  .BentoGrid {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+@media (width < 520px) {
+  .BentoGrid {
+    width: 100%;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

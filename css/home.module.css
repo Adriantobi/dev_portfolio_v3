@@ -1,0 +1,172 @@
+.main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(var(--background-start-rgb));
+}
+
+.container {
+/*   max-width: 1280px; */
+  padding: 0 6rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  height: 100%;
+  width: 100%;
+  align-items: flex-start;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.infoWrapper {
+  max-width: 460px;
+  min-width: 360px;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  left: 0;
+  gap: 14px;
+  padding: 96px 0;
+  height: 100%;
+  cursor: default;
+}
+
+.nameWrapper, .description {
+  z-index: 100;
+}
+
+.nameWrapper h1 {
+  font-size: 48px;
+  margin-bottom: 5px;
+}
+
+.currentEmployment {
+  opacity: .95;
+  display: flex;
+  z-index: 100;
+  gap: 5px;
+  align-items: center;
+}
+
+.description p {
+  opacity: 0.75;
+  font-size: 14px;
+  z-index: 100;
+}
+
+.socials {
+  opacity: 1;
+  margin-top: 5px;
+  z-index: 100;
+  display: flex;
+  gap: 1rem;
+  font-size: 14px;
+  align-items: center;
+}
+
+.socials a {
+  display: flex;
+  align-items: center;
+}
+
+.socials a:hover {
+  opacity: .75;
+}
+
+.blur {
+  width: 480px;
+  height: 360px;
+  border-radius: 100%;
+  background: rgb(var(--blur-rgb));
+  position: absolute;
+  filter: blur(150px);
+  opacity: .95;
+  top: 15%;
+  left: -50%;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  z-index: 100;
+  gap: 8px;
+}
+
+.skillsHeader {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.skillsHeader p {
+  opacity: .95;
+}
+
+.codeIcon {
+  background: rgb(var(--blur-rgb)); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  padding: 4px;
+}
+
+.langList {
+  font-size: 12px;
+  opacity: .75;
+}
+
+.langItem::after {
+  content: ' • ';
+}
+
+.langItem:last-child::after {
+  content: '';
+}
+
+.scrollSection {
+  display: flex;
+  flex-direction: column;
+  padding: 96px 0;
+  gap: 9rem;
+}
+
+@media (width < 1065px) {
+  .infoWrapper {
+    position: relative;
+    min-width: 100%;
+  }
+
+  .container {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  .nameWrapper h1 {
+    font-size: 36px;
+  }
+}
+
+@media (width < 842px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .infoWrapper {
+    padding: 0 15px;
+    padding-top: 48px;
+  }
+
+  .scrollSection {
+    gap: 4em;
+  }
+}

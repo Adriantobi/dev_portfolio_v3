@@ -1,0 +1,93 @@
+.content a {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+}
+
+.iconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+  min-height: 48px;
+  height: 48px;
+  min-width: 48px;
+  width: 48px;
+}
+
+.textWrapper {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.jobLink {
+  display: flex;
+  height: 1.25em;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.innerWrapper {
+  display: flex;
+  width: max-content;
+  height: max-content;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 250ms ease-in-out;
+}
+
+.innerWrapper span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.innerWrapper svg {
+  transition: all 250ms ease-in-out;
+}
+
+.jobLink:hover .innerWrapper, .content:hover .innerWrapper  {
+  transform: translateY(-1.25em);
+  opacity: .75;
+}
+
+.jobLink:hover .innerWrapper svg, .content:hover .innerWrapper svg {
+  transform: rotate(-45deg);
+}
+
+.timeLine {
+  font-size: 12px;
+  opacity: .5;
+}
+
+.description {
+  font-size: 14px;
+  opacity: .75;
+}
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tech {
+  background: rgb(var(--tech-stack));
+  padding: 4px 10px;
+  border-radius: 25px;
+  font-size: 12px;
+}
+
+@media (width < 520px) {
+  .header {
+    flex-direction: column;
+  }
+}
