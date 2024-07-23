@@ -129,7 +129,7 @@ export default function BentoGrid() {
       />
       <JobBento
         icon={
-          "https://media.licdn.com/dms/image/D4E0BAQHtjb8OgAe35w/company-logo_200_200/0/1688725653268/carbonandfinch_logo?e=1720051200&v=beta&t=zQPGaZykSnqJTI69k0Ns4c8mhOqQ0olvlgzNLVkEEgk"
+          "https://media.licdn.com/dms/image/D4E0BAQHtjb8OgAe35w/company-logo_200_200/0/1688725653268/carbonandfinch_logo?e=1729728000&v=beta&t=hCZNCaqJ-0mVHdyUSUMn_4zSeWS65hZ5378OXVbc96o"
         }
         link={"https://www.carbonandfinch.com/"}
         start={"JAN 2024"}
@@ -144,7 +144,7 @@ export default function BentoGrid() {
       />
       <JobBento
         icon={
-          "https://media.licdn.com/dms/image/D560BAQFHwiQouD_01A/company-logo_200_200/0/1681903283657/epsom_ewell_hub_logo?e=1720051200&v=beta&t=JZVxNsMW22oBm1xp7QSA6cCeSr4QbYcb53ick0ZCAPE"
+          "https://media.licdn.com/dms/image/D560BAQFHwiQouD_01A/company-logo_200_200/0/1681903283657/epsom_ewell_hub_logo?e=1729728000&v=beta&t=rrlrEn1KL_1NKgOJKi8yZHDgSw_rZvbmtHVrVR6GjZs"
         }
         link={"https://www.epsomandewellhub.com/"}
         start={"JULY 2023"}
@@ -191,7 +191,7 @@ export default function BentoGrid() {
       />
       <JobBento
         icon={
-          "https://media.licdn.com/dms/image/C4E0BAQHm5bYK6emQSg/company-logo_200_200/0/1630621204188/goldman_sachs_logo?e=1721260800&v=beta&t=MJgtkOD3hrLR2IzcupcgW74CiF1yRm5k0Kqpy5bvKig"
+          "https://media.licdn.com/dms/image/C4E0BAQHm5bYK6emQSg/company-logo_200_200/0/1630621204188/goldman_sachs_logo?e=1729728000&v=beta&t=TwqPwdw5DKvqxCE-DqPqEs8r_D-jxG6_0-zHFyyAjNY"
         }
         link={
           "https://insidesherpa.s3.amazonaws.com/completion-certificates/Goldman%20Sachs/NPdeQ43o8P9HJmJzg_Goldman%20Sachs_u2pPtAhxvS8oQHQfT_1629113234515_completion_certificate.pdf"
@@ -208,7 +208,7 @@ export default function BentoGrid() {
       />
       <JobBento
         icon={
-          "https://media.licdn.com/dms/image/C4E0BAQFN7ZGRjNcgeA/company-logo_200_200/0/1656681489601/jpmorganchase_logo?e=1721260800&v=beta&t=Ja3xi-ivHJ9oCbIzQ5_H189rP4PLkVOmxnsxhPiMKj0"
+          "https://media.licdn.com/dms/image/C4E0BAQFN7ZGRjNcgeA/company-logo_400_400/0/1656681489601/jpmorganchase_logo?e=2147483647&v=beta&t=Cri68t3YNEgTwG2_BhKNbNhutV5x8Te9OWg2G31m5Es"
         }
         link={
           "https://insidesherpa.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_u2pPtAhxvS8oQHQfT_1629460325328_completion_certificate.pdf"
@@ -235,7 +235,7 @@ export default function BentoGrid() {
             type={"social"}
             link={"https://instagram.com/adrian.td"}
             icon={
-              "https://media.licdn.com/dms/image/C4E0BAQFt6KqGwvGCzg/company-logo_200_200/0/1652805738201/instagram_logo?e=1721260800&v=beta&t=zbyPZ7r99apzeN2ETqGMwY_vvSN6n7csWxEwGJ1OlPM"
+              "https://media.licdn.com/dms/image/C4E0BAQFt6KqGwvGCzg/company-logo_200_200/0/1652805738201/instagram_logo?e=1729728000&v=beta&t=OEzc6x-MO9v1fwDENluZYS5BACv16rucndDWubvWKZ4"
             }
             size="2x2"
             header={"Instagram"}
@@ -248,7 +248,7 @@ export default function BentoGrid() {
             type={"social"}
             link={"https://github.com/Adriantobi"}
             icon={
-              "https://media.licdn.com/dms/image/C560BAQFmuLSyL1nlPA/company-logo_200_200/0/1678231359043/github_logo?e=1721260800&v=beta&t=TH-el1zrJzoQjtsE_a3LFYQo2Htjq45xLZsg9yQeE_0"
+              "https://media.licdn.com/dms/image/C560BAQFmuLSyL1nlPA/company-logo_200_200/0/1678231359043/github_logo?e=1729728000&v=beta&t=VwyJBs3ugcsZdA1yQBPF6Bydd3mYqsEGWQ_D-YdYSnI"
             }
             size="2x1"
             header={"GitHub"}
@@ -260,7 +260,7 @@ export default function BentoGrid() {
             type={"social"}
             link={"https://twitter.com/adriantdoav"}
             icon={
-              "https://media.licdn.com/dms/image/D560BAQHQCdS1oXcD2Q/company-logo_200_200/0/1691021621180?e=1721260800&v=beta&t=A_8wt050IR85AZKXn3SB5yknsoPWTX76_QcfqZd5pSA"
+              "https://media.licdn.com/dms/image/D560BAQHQCdS1oXcD2Q/company-logo_200_200/0/1691021621180?e=1729728000&v=beta&t=pz9NqhbJbKckxCThSjEX_sAEaomDKdHwaD_CWVrnPA0"
             }
             size="2x1"
             header={"X"}
@@ -272,7 +272,7 @@ export default function BentoGrid() {
             type={"social"}
             link={"https://www.linkedin.com/in/adriantd"}
             icon={
-              "https://media.licdn.com/dms/image/C560BAQHaVYd13rRz3A/company-logo_200_200/0/1638831590218/linkedin_logo?e=1721260800&v=beta&t=hCdtLGVZqdY7iwQDDeKyx1mQyrE3N4P1uhWibELC8l4"
+              "https://media.licdn.com/dms/image/C560BAQHaVYd13rRz3A/company-logo_200_200/0/1638831590218/linkedin_logo?e=1729728000&v=beta&t=cPMdHxGk-ScEWCAZBuGGFxq1X9SsTU-1C-hHKLXORmo"
             }
             size="2x2"
             header={"LinkedIn"}
@@ -288,7 +288,7 @@ export default function BentoGrid() {
               "https://www.xiaohongshu.com/user/profile/616c9247000000000201ca3e"
             }
             icon={
-              "https://media.licdn.com/dms/image/C510BAQFymtI6HMvF0A/company-logo_200_200/0/1631361161136?e=1720051200&v=beta&t=OXylkjZ2dt7lvjcvdVSOKv5x2ObIbMYxiEconztqvps"
+              "https://media.licdn.com/dms/image/C510BAQFymtI6HMvF0A/company-logo_200_200/0/1631361161136?e=1729728000&v=beta&t=2IcAOQt1xB0Jcvn7jMegllWZGPjlYosb7oU0Q9VO3gM"
             }
             size="2x4"
             header={"小红书"}
@@ -304,7 +304,7 @@ export default function BentoGrid() {
             type={"social"}
             link={"https://weibo.com/u/7696376222?ssl_rnd=1660044172.0373"}
             icon={
-              "https://media.licdn.com/dms/image/C560BAQG0MvELPXwlkQ/company-logo_200_200/0/1630861157743/_logo?e=1720051200&v=beta&t=BIHj9Fajv_bd4j8l9CJrcLSo6vK5oPUimGkaPs6dL6k"
+              "https://media.licdn.com/dms/image/C560BAQG0MvELPXwlkQ/company-logo_200_200/0/1630861157743/_logo?e=1729728000&v=beta&t=bdVslIm4A0Q1FavGRSAwP6-bBogeh-dGVtUeelMZFfs"
             }
             size="2x1"
             header={"Weibo"}
@@ -316,7 +316,7 @@ export default function BentoGrid() {
             type={"social"}
             link={"https://letterboxd.com/adriantd"}
             icon={
-              "https://media.licdn.com/dms/image/C560BAQE7vwWktMc_Sw/company-logo_200_200/0/1630615178595?e=1720051200&v=beta&t=QoGbZ-KCdu0r6eWkr_jNyq3DQlGZ8pSxTyZ-06ldlN4"
+              "https://media.licdn.com/dms/image/C560BAQE7vwWktMc_Sw/company-logo_200_200/0/1630615178595?e=1729728000&v=beta&t=W1j9rhY8sJV3wztp3y4uYIRa-LRJH2NuS2JB5Ax_aGA"
             }
             size="2x1"
             header={"Letterboxd"}
