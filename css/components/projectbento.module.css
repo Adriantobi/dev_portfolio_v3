@@ -97,10 +97,6 @@
   transition: border 150ms ease-in-out;
 }
 
-.imageSlide:hover > img {
-  transform: scale(1.2);
-}
-
 .imageSlide img {
   height: 100% !important;
   width: auto !important;
@@ -119,4 +115,10 @@
 .miniImageWrapper {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+}
+
+@media (width > 520px) {
+  .imageSlide:hover > img {
+    transform: scale(1.2);
+  }
 }
