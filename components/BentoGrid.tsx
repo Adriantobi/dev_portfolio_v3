@@ -105,7 +105,7 @@ export default function BentoGrid() {
       <span className={styles.sectionTitle}>EXPERIENCE</span>
       <JobBento
         icon={
-          "https://media.licdn.com/dms/image/C4D0BAQEU1YtNwozLbQ/company-logo_200_200/0/1630538156604/jeffreyai_logo?e=1721865600&v=beta&t=InW3BB4SsaUkmx5ouTr91X7854-oZd1tu2k-VIZwtpo"
+          "https://media.licdn.com/dms/image/C4D0BAQEU1YtNwozLbQ/company-logo_200_200/0/1630538156604/jeffreyai_logo?e=1730937600&v=beta&t=2zG5X0vxEopovSmhdGZdSrgvonwJel6x6Z-EQMUx0zk"
         }
         link={"https://www.jeffreyai.com/"}
         start={"MAR 2024"}
@@ -176,7 +176,7 @@ export default function BentoGrid() {
       />
       <JobBento
         icon={
-          "https://media.licdn.com/dms/image/C4D0BAQGOMVo5-P5IHg/company-logo_200_200/0/1674468940363/wedancevip_logo?e=1722470400&v=beta&t=dLlIjw9D92fPtLTyxTvmiYuqtRwpmKiKvly_HzPghXs"
+          "https://media.licdn.com/dms/image/C4D0BAQGOMVo5-P5IHg/company-logo_200_200/0/1674468940363/wedancevip_logo?e=1730937600&v=beta&t=Xkym9IxcAhrOQiQ9a9q64bPwyOigp-Kzt_NN5JEsPl0"
         }
         link={"https://www.wedance.vip"}
         start={"JULY 2022"}
