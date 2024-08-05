@@ -159,7 +159,7 @@ export default function BentoGrid() {
       />
       <JobBento
         icon={
-          "https://media.licdn.com/dms/image/D560BAQHkiLWOxOvJ_g/company-logo_200_200/0/1690172518168/moreton_bay_regional_council_logo?e=1722470400&v=beta&t=9IQ5BMezLuNowT6XxKk-lLJas27VKbTyKdPB6KVjszw"
+          "https://media.licdn.com/dms/image/D560BAQHkiLWOxOvJ_g/company-logo_200_200/0/1690172518168/moreton_bay_regional_council_logo?e=1730937600&v=beta&t=tyU3nT30Iwi86syEZvZL7l4vk4kttp3ANHxvw-icnAE"
         }
         link={
           "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Moreton%20Bay%20Regional%20Council/7q8DN5enMzSHqLwev_Moreton%20Bay%20Regional%20Council_u2pPtAhxvS8oQHQfT_1681464876569_completion_certificate.pdf"
