@@ -8,7 +8,7 @@ import ProjectBento from "./ProjectBento";
 import TextLink from "./TextLink";
 
 export default function BentoGrid() {
-  const [showBento, setShowBento] = useState<boolean>();
+  const [showBento, setShowBento] = useState<boolean>(true);
 
   const changeBento = () => {
     setShowBento(!showBento);
