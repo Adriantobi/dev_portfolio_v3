@@ -24,6 +24,16 @@ export default function BentoGrid() {
     <div className={styles.BentoGrid}>
       <span className={styles.sectionTitle}>PROJECTS</span>
       <ProjectBento
+        link={"https://monstr.ofneill.com/"}
+        title={"Monstr"}
+        description={
+          "Monstr is a web-based chat application that allows users to create and join disposable chat rooms."
+        }
+        images={[
+          "/monstr.png",
+        ]}
+      />
+      <ProjectBento
         link={"https://github.com/Adriantobi/dotfiles/"}
         title={"Neovim Config"}
         description={
