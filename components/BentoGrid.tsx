@@ -24,16 +24,6 @@ export default function BentoGrid() {
     <div className={styles.BentoGrid}>
       <span className={styles.sectionTitle}>PROJECTS</span>
       <ProjectBento
-        link={"https://monstr.ofneill.com/"}
-        title={"Monstr"}
-        description={
-          "Monstr is a web-based chat application that allows users to create and join disposable chat rooms."
-        }
-        images={[
-          "/monstr.png",
-        ]}
-      />
-      <ProjectBento
         link={"https://github.com/Adriantobi/dotfiles/"}
         title={"Neovim Config"}
         description={
@@ -46,6 +36,14 @@ export default function BentoGrid() {
           "/nvimConfig4.png",
         ]}
         unoptimized={true}
+      />
+      <ProjectBento
+        link={"https://www.npmjs.com/package/rbbt-client"}
+        title={"RBBT Client"}
+        description={
+          "RBBTClient is a JavaScript library designed for seamless interaction with RabbitMQ over WebSockets. It offers a simple and intuitive API for connecting to RabbitMQ brokers, managing exchanges and subscribing to queues."
+        }
+        images={["/rbbtClient.png"]}
       />
       <ProjectBento
         link={"https://github.com/Adriantobi/cuery/"}
@@ -73,6 +71,15 @@ export default function BentoGrid() {
         }
         images={["/christEmbassyWallington.png"]}
       />
+      <ProjectBento
+        link={"https://monstr.ofneill.com/"}
+        title={"Monstr"}
+        description={
+          "Monstr is a web-based chat application that allows users to create and join disposable chat rooms."
+        }
+        images={["/monstr.png"]}
+      />
+
       <ProjectBento
         link={"https://www.epsomandewellhub.com/"}
         title={"Epsom And Ewell Hub"}
