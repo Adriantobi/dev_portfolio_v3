@@ -41,7 +41,7 @@ export default function BentoGrid() {
         link={"https://www.npmjs.com/package/rbbt-client"}
         title={"RBBT Client"}
         description={
-          "RBBTClient is a JavaScript library designed for seamless interaction with RabbitMQ over WebSockets. It offers a simple and intuitive API for connecting to RabbitMQ brokers, managing exchanges and subscribing to queues."
+          "RBBTClient is a JavaScript library designed for seamless interaction with RabbitMQ over WebSockets."
         }
         images={["/rbbtClient.png"]}
       />
