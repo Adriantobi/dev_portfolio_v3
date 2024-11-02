@@ -251,7 +251,7 @@ export default function BentoGrid() {
             type={"social"}
             link={"https://instagram.com/adrian.td"}
             icon={
-              "https://media.licdn.com/dms/image/C4E0BAQFt6KqGwvGCzg/company-logo_200_200/0/1652805738201/instagram_logo?e=1729728000&v=beta&t=OEzc6x-MO9v1fwDENluZYS5BACv16rucndDWubvWKZ4"
+              "https://media.licdn.com/dms/image/v2/C4E0BAQFt6KqGwvGCzg/company-logo_200_200/company-logo_200_200/0/1652805738201/instagram_logo?e=1738800000&v=beta&t=NtyzcAyZy0sbQPNfm-Rn3SLqds9pkEPfXT48t1K0esM"
             }
             size="2x2"
             header={"Instagram"}
@@ -264,7 +264,7 @@ export default function BentoGrid() {
             type={"social"}
             link={"https://github.com/Adriantobi"}
             icon={
-              "https://media.licdn.com/dms/image/C560BAQFmuLSyL1nlPA/company-logo_200_200/0/1678231359043/github_logo?e=1729728000&v=beta&t=VwyJBs3ugcsZdA1yQBPF6Bydd3mYqsEGWQ_D-YdYSnI"
+              "https://media.licdn.com/dms/image/v2/C560BAQFmuLSyL1nlPA/company-logo_200_200/company-logo_200_200/0/1678231359043/github_logo?e=1738800000&v=beta&t=rbVX5VzFYNILYre5VWcLy_-uxSUXJLVjt4zZvDAdrPw"
             }
             size="2x1"
             header={"GitHub"}
@@ -276,7 +276,7 @@ export default function BentoGrid() {
             type={"social"}
             link={"https://twitter.com/adriantdoav"}
             icon={
-              "https://media.licdn.com/dms/image/D560BAQHQCdS1oXcD2Q/company-logo_200_200/0/1691021621180?e=1729728000&v=beta&t=pz9NqhbJbKckxCThSjEX_sAEaomDKdHwaD_CWVrnPA0"
+              "https://media.licdn.com/dms/image/C560BAQFmuLSyL1nlPA/company-logo_200_200/0/1678231359043/github_logo?e=1729728000&v=beta&t=VwyJBs3ugcsZdA1yQBPF6Bydd3mYqsEGWQ_D-YdYSnI"
             }
             size="2x1"
             header={"X"}
@@ -288,7 +288,7 @@ export default function BentoGrid() {
             type={"social"}
             link={"https://www.linkedin.com/in/adriantd"}
             icon={
-              "https://media.licdn.com/dms/image/C560BAQHaVYd13rRz3A/company-logo_200_200/0/1638831590218/linkedin_logo?e=1729728000&v=beta&t=cPMdHxGk-ScEWCAZBuGGFxq1X9SsTU-1C-hHKLXORmo"
+              "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1738800000&v=beta&t=56X8R3G39NuyoFsIgMJB0kiW2HzJzpFGDw6dp83VWTI"
             }
             size="2x2"
             header={"LinkedIn"}
@@ -297,14 +297,13 @@ export default function BentoGrid() {
             buttonContent={"Connect"}
             buttonColour={"11, 101, 195"}
           />
-
           <GridItem
             type={"social"}
             link={
               "https://www.xiaohongshu.com/user/profile/616c9247000000000201ca3e"
             }
             icon={
-              "https://media.licdn.com/dms/image/C510BAQFymtI6HMvF0A/company-logo_200_200/0/1631361161136?e=1729728000&v=beta&t=2IcAOQt1xB0Jcvn7jMegllWZGPjlYosb7oU0Q9VO3gM"
+              "https://media.licdn.com/dms/image/v2/C510BAQFymtI6HMvF0A/company-logo_200_200/company-logo_200_200/0/1631361161136?e=1738800000&v=beta&t=663YNg1c13-okNjOjsdqFxqxb2ZvdIevPxBos6PeV0c"
             }
             size="2x4"
             header={"小红书"}
@@ -320,7 +319,7 @@ export default function BentoGrid() {
             type={"social"}
             link={"https://weibo.com/u/7696376222?ssl_rnd=1660044172.0373"}
             icon={
-              "https://media.licdn.com/dms/image/C560BAQG0MvELPXwlkQ/company-logo_200_200/0/1630861157743/_logo?e=1729728000&v=beta&t=bdVslIm4A0Q1FavGRSAwP6-bBogeh-dGVtUeelMZFfs"
+              "https://media.licdn.com/dms/image/v2/C560BAQG0MvELPXwlkQ/company-logo_200_200/company-logo_200_200/0/1630861157743/_logo?e=1738800000&v=beta&t=j73tFlChcISF5THEgjx-ZqO3R0sfTdScghEdPiur4YY"
             }
             size="2x1"
             header={"Weibo"}
@@ -332,7 +331,7 @@ export default function BentoGrid() {
             type={"social"}
             link={"https://letterboxd.com/adriantd"}
             icon={
-              "https://media.licdn.com/dms/image/C560BAQE7vwWktMc_Sw/company-logo_200_200/0/1630615178595?e=1729728000&v=beta&t=W1j9rhY8sJV3wztp3y4uYIRa-LRJH2NuS2JB5Ax_aGA"
+              "https://media.licdn.com/dms/image/C560BAQG0MvELPXwlkQ/company-logo_200_200/0/1630861157743/_logo?e=1729728000&v=beta&t=bdVslIm4A0Q1FavGRSAwP6-bBogeh-dGVtUeelMZFfs"
             }
             size="2x1"
             header={"Letterboxd"}
