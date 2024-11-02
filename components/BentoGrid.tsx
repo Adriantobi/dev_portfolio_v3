@@ -145,7 +145,7 @@ export default function BentoGrid() {
       />
       <JobBento
         icon={
-          "https://media.licdn.com/dms/image/D4E0BAQHtjb8OgAe35w/company-logo_200_200/0/1688725653268/carbonandfinch_logo?e=1729728000&v=beta&t=hCZNCaqJ-0mVHdyUSUMn_4zSeWS65hZ5378OXVbc96o"
+          "https://media.licdn.com/dms/image/v2/D4E0BAQHtjb8OgAe35w/company-logo_200_200/company-logo_200_200/0/1688725653268/carbonandfinch_logo?e=1738800000&v=beta&t=eZr9PH_arU7r5BN5gRBvWoDH9Pd1hODRjPDWvRSc3a4"
         }
         link={"https://www.carbonandfinch.com/"}
         start={"JAN 2024"}
@@ -160,7 +160,7 @@ export default function BentoGrid() {
       />
       <JobBento
         icon={
-          "https://media.licdn.com/dms/image/D560BAQFHwiQouD_01A/company-logo_200_200/0/1681903283657/epsom_ewell_hub_logo?e=1729728000&v=beta&t=rrlrEn1KL_1NKgOJKi8yZHDgSw_rZvbmtHVrVR6GjZs"
+          "https://media.licdn.com/dms/image/v2/D560BAQFHwiQouD_01A/company-logo_200_200/company-logo_200_200/0/1681903283657/epsom_ewell_hub_logo?e=1738800000&v=beta&t=FEcwN_agPZYhACGM8f06lLQJaqVoQSjoP4IPBbKJgwY"
         }
         link={"https://www.epsomandewellhub.com/"}
         start={"JULY 2023"}
@@ -207,7 +207,7 @@ export default function BentoGrid() {
       />
       <JobBento
         icon={
-          "https://media.licdn.com/dms/image/C4E0BAQHm5bYK6emQSg/company-logo_200_200/0/1630621204188/goldman_sachs_logo?e=1729728000&v=beta&t=TwqPwdw5DKvqxCE-DqPqEs8r_D-jxG6_0-zHFyyAjNY"
+          "https://media.licdn.com/dms/image/v2/D4E0BAQG9L7InIQVZrQ/company-logo_200_200/company-logo_200_200/0/1722506756452/goldman_sachs_logo?e=1738800000&v=beta&t=lIJnZUeWG3ayCmC5JSYeu0h4VVXlfa6tufcdlKz_yqs"
         }
         link={
           "https://insidesherpa.s3.amazonaws.com/completion-certificates/Goldman%20Sachs/NPdeQ43o8P9HJmJzg_Goldman%20Sachs_u2pPtAhxvS8oQHQfT_1629113234515_completion_certificate.pdf"
