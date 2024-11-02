@@ -276,7 +276,7 @@ export default function BentoGrid() {
             type={"social"}
             link={"https://twitter.com/adriantdoav"}
             icon={
-              "https://media.licdn.com/dms/image/C560BAQFmuLSyL1nlPA/company-logo_200_200/0/1678231359043/github_logo?e=1729728000&v=beta&t=VwyJBs3ugcsZdA1yQBPF6Bydd3mYqsEGWQ_D-YdYSnI"
+              "https://media.licdn.com/dms/image/v2/D560BAQHQCdS1oXcD2Q/company-logo_200_200/company-logo_200_200/0/1691021621180?e=1738800000&v=beta&t=welFxcI_f6TvbspN5CdqW8tqwGgnhvmCVHER0ds0tqg"
             }
             size="2x1"
             header={"X"}
