@@ -331,7 +331,7 @@ export default function BentoGrid() {
             type={"social"}
             link={"https://letterboxd.com/adriantd"}
             icon={
-              "https://media.licdn.com/dms/image/C560BAQG0MvELPXwlkQ/company-logo_200_200/0/1630861157743/_logo?e=1729728000&v=beta&t=bdVslIm4A0Q1FavGRSAwP6-bBogeh-dGVtUeelMZFfs"
+              "https://media.licdn.com/dms/image/v2/C560BAQE7vwWktMc_Sw/company-logo_200_200/company-logo_200_200/0/1630615178595?e=1738800000&v=beta&t=FttmTULs9tKqu0DGmhpmXBnnHuC1ayu1QuMa1yc3ItA"
             }
             size="2x1"
             header={"Letterboxd"}
