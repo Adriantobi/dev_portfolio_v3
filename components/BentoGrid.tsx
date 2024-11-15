@@ -121,7 +121,7 @@ export default function BentoGrid() {
       <span className={styles.sectionTitle}>EXPERIENCE</span>
       <JobBento
         icon={
-          "https://media.licdn.com/dms/image/C4D0BAQEU1YtNwozLbQ/company-logo_200_200/0/1630538156604/jeffreyai_logo?e=1730937600&v=beta&t=2zG5X0vxEopovSmhdGZdSrgvonwJel6x6Z-EQMUx0zk"
+          "https://media.licdn.com/dms/image/D560BAQHkiLWOxOvJ_g/company-logo_200_200/0/1690172518168/moreton_bay_regional_council_logo?e=1730937600&v=beta&t=tyU3nT30Iwi86syEZvZL7l4vk4kttp3ANHxvw-icnAE"
         }
         link={"https://www.jeffreyai.com/"}
         start={"MAR 2024"}
@@ -175,7 +175,7 @@ export default function BentoGrid() {
       />
       <JobBento
         icon={
-          "https://media.licdn.com/dms/image/D560BAQHkiLWOxOvJ_g/company-logo_200_200/0/1690172518168/moreton_bay_regional_council_logo?e=1730937600&v=beta&t=tyU3nT30Iwi86syEZvZL7l4vk4kttp3ANHxvw-icnAE"
+          "https://media.licdn.com/dms/image/v2/D560BAQHkiLWOxOvJ_g/company-logo_200_200/company-logo_200_200/0/1690172518168/moreton_bay_regional_council_logo?e=1740009600&v=beta&t=psiHW57v2eCll9mp3Lyb3JxpnXYj7YzwIm6jzSA_oFc"
         }
         link={
           "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Moreton%20Bay%20Regional%20Council/7q8DN5enMzSHqLwev_Moreton%20Bay%20Regional%20Council_u2pPtAhxvS8oQHQfT_1681464876569_completion_certificate.pdf"
@@ -192,7 +192,7 @@ export default function BentoGrid() {
       />
       <JobBento
         icon={
-          "https://media.licdn.com/dms/image/C4D0BAQGOMVo5-P5IHg/company-logo_200_200/0/1674468940363/wedancevip_logo?e=1730937600&v=beta&t=Xkym9IxcAhrOQiQ9a9q64bPwyOigp-Kzt_NN5JEsPl0"
+          "https://media.licdn.com/dms/image/v2/C4D0BAQGOMVo5-P5IHg/company-logo_200_200/company-logo_200_200/0/1674468940363/wedancevip_logo?e=1740009600&v=beta&t=FQU4c-X8YqQ6BdZKSUFh-jDMBlu3RqGn2VtCD1iiXts"
         }
         link={"https://www.wedance.vip"}
         start={"JULY 2022"}
