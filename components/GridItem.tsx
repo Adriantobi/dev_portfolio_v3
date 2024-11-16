@@ -127,6 +127,7 @@ export default function GridItem({
 
   if (link) {
     return (
+      // @ts-ignore
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
@@ -144,7 +145,9 @@ export default function GridItem({
           backgroundColor: colourBg
             ? `rgba(${colourBg}, ${hovering ? 0.5 : 0.25})`
             : `rgba(var(--grid-item), ${hovering ? 0.5 : 0.25})`,
-          border: colourBg ? `1px solid rgba(${colourBg}, 0.95)` : `1px solid rgba(var(--grid-item), 0.95)`,
+          border: colourBg
+            ? `1px solid rgba(${colourBg}, 0.95)`
+            : `1px solid rgba(var(--grid-item), 0.95)`,
         }}
         onMouseEnter={() => setHovering(true)}
         onMouseLeave={() => setHovering(false)}
