@@ -132,8 +132,8 @@ export default function GridItem({
         animate={{ scale: 1 }}
         transition={{
           type: "spring",
-          stiffness: "330",
-          damping: "35",
+          stiffness: 330,
+          damping: 35,
           duration: 0.15,
         }}
         className={`${styles.GridItem} ${type === "project" ? `${styles.projectCard}` : type === "job" ? `${styles.jobCard}` : type === "social" && !bgImage ? `${styles.socialCard}` : ""} ${bgImage ? `${styles.bgImageWrapper}` : ""}`}
