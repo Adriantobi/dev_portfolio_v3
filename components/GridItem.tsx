@@ -127,7 +127,6 @@ export default function GridItem({
 
   if (link) {
     return (
-      // @ts-ignore
       <motion.div
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
@@ -137,6 +136,7 @@ export default function GridItem({
           damping: 35,
           duration: 0.15,
         }}
+        // @ts-ignore
         className={`${styles.GridItem} ${type === "project" ? `${styles.projectCard}` : type === "job" ? `${styles.jobCard}` : type === "social" && !bgImage ? `${styles.socialCard}` : ""} ${bgImage ? `${styles.bgImageWrapper}` : ""}`}
         style={{
           gridArea: gridItem?.gridArea,
