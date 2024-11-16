@@ -121,7 +121,7 @@ export default function BentoGrid() {
       <span className={styles.sectionTitle}>EXPERIENCE</span>
       <JobBento
         icon={
-          "https://media.licdn.com/dms/image/D560BAQHkiLWOxOvJ_g/company-logo_200_200/0/1690172518168/moreton_bay_regional_council_logo?e=1730937600&v=beta&t=tyU3nT30Iwi86syEZvZL7l4vk4kttp3ANHxvw-icnAE"
+          "https://media.licdn.com/dms/image/v2/C4D0BAQEU1YtNwozLbQ/company-logo_200_200/company-logo_200_200/0/1630538156604/jeffreyai_logo?e=1740009600&v=beta&t=WgC_4ZkqB85E1ek4GrscA5YlnnyeKeB8b-EC12uehGk"
         }
         link={"https://www.jeffreyai.com/"}
         start={"MAR 2024"}
