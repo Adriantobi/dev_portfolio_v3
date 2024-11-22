@@ -22,6 +22,129 @@ export default function BentoGrid() {
 
   return (
     <div className={styles.BentoGrid}>
+      <span className={styles.sectionTitle}>EXPERIENCE</span>
+      <JobBento
+        icon={
+          "https://media.licdn.com/dms/image/v2/C4D0BAQEU1YtNwozLbQ/company-logo_200_200/company-logo_200_200/0/1630538156604/jeffreyai_logo?e=1740009600&v=beta&t=WgC_4ZkqB85E1ek4GrscA5YlnnyeKeB8b-EC12uehGk"
+        }
+        link={"https://www.jeffreyai.com/"}
+        start={"MAR 2024"}
+        end={"PRESENT"}
+        role={"Angular Developer"}
+        type={"Full Time"}
+        company={"JeffreyAI"}
+        desc={
+          "As a front-end Angular developer, I craft a seamless user experience, from design to performance. I turn concepts into interactive interfaces, build reusable components, and ensure everything runs smoothly."
+        }
+        tech={[
+          "Angular",
+          "Typescript",
+          "Figma",
+          "React",
+          "Azure DevOps",
+          "Plasmo",
+          "Sass",
+          "Tailwind",
+          "Next.js",
+          "SQL",
+        ]}
+      />
+      <JobBento
+        icon={
+          "https://media.licdn.com/dms/image/v2/D4E0BAQHtjb8OgAe35w/company-logo_200_200/company-logo_200_200/0/1688725653268/carbonandfinch_logo?e=1738800000&v=beta&t=eZr9PH_arU7r5BN5gRBvWoDH9Pd1hODRjPDWvRSc3a4"
+        }
+        link={"https://www.carbonandfinch.com/"}
+        start={"JAN 2024"}
+        end={"MAR 2024"}
+        role={"X++ Developer"}
+        type={"Full Time"}
+        company={"Carbon & Finch"}
+        desc={
+          "Identified and resolved bugs or errors within Dynamics AX or Dynamics 365 business applications. Also implemented new features and tailored existing modules to align with specific business processes or workflows."
+        }
+        tech={["X++", "Azure", "Microsoft Dynamics 365", "C#"]}
+      />
+      <JobBento
+        icon={
+          "https://media.licdn.com/dms/image/v2/D560BAQFHwiQouD_01A/company-logo_200_200/company-logo_200_200/0/1681903283657/epsom_ewell_hub_logo?e=1738800000&v=beta&t=FEcwN_agPZYhACGM8f06lLQJaqVoQSjoP4IPBbKJgwY"
+        }
+        link={"https://www.epsomandewellhub.com/"}
+        start={"JULY 2023"}
+        end={"SEP 2023"}
+        role={"Web Developer"}
+        type={"Volunteer"}
+        company={"Epsom & Ewell Hub"}
+        desc={
+          "Applied Wix and JavaScript proficiency to elevate a critical job-seeking platform, channeling a passion for coding and community impact. Worked collaboratively with a designer to integrate UI elements seamlessly, utilizing the Wix drag-and-drop interface and code editor."
+        }
+        tech={["JavaScript", "Wix"]}
+      />
+      <JobBento
+        icon={
+          "https://media.licdn.com/dms/image/v2/D560BAQHkiLWOxOvJ_g/company-logo_200_200/company-logo_200_200/0/1690172518168/moreton_bay_regional_council_logo?e=1740009600&v=beta&t=psiHW57v2eCll9mp3Lyb3JxpnXYj7YzwIm6jzSA_oFc"
+        }
+        link={
+          "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Moreton%20Bay%20Regional%20Council/7q8DN5enMzSHqLwev_Moreton%20Bay%20Regional%20Council_u2pPtAhxvS8oQHQfT_1681464876569_completion_certificate.pdf"
+        }
+        start={"MAR 2023"}
+        end={"APR 2023"}
+        role={"Web Developer"}
+        type={"Virtual Experience"}
+        company={"Moreton Bay"}
+        desc={
+          "From planning the website to creating a form section for user input. Explore UI/UX design for end users and further polished my web development skills."
+        }
+        tech={["Figma", "CSS", "HTML", "JavaScript"]}
+      />
+      <JobBento
+        icon={
+          "https://media.licdn.com/dms/image/v2/C4D0BAQGOMVo5-P5IHg/company-logo_200_200/company-logo_200_200/0/1674468940363/wedancevip_logo?e=1740009600&v=beta&t=FQU4c-X8YqQ6BdZKSUFh-jDMBlu3RqGn2VtCD1iiXts"
+        }
+        link={"https://www.wedance.vip"}
+        start={"JULY 2022"}
+        end={"SEP 2022"}
+        role={"Front-end Developer"}
+        type={"Internship"}
+        company={"WeDance"}
+        desc={
+          "Used Vue.js to fix bugs given by various tickets on the github codebase. Helped in designing and building the new WeDance version."
+        }
+        tech={["Vue.js", "CSS", "TypeScript"]}
+      />
+      <JobBento
+        icon={
+          "https://media.licdn.com/dms/image/v2/D4E0BAQG9L7InIQVZrQ/company-logo_200_200/company-logo_200_200/0/1722506756452/goldman_sachs_logo?e=1738800000&v=beta&t=lIJnZUeWG3ayCmC5JSYeu0h4VVXlfa6tufcdlKz_yqs"
+        }
+        link={
+          "https://insidesherpa.s3.amazonaws.com/completion-certificates/Goldman%20Sachs/NPdeQ43o8P9HJmJzg_Goldman%20Sachs_u2pPtAhxvS8oQHQfT_1629113234515_completion_certificate.pdf"
+        }
+        start={"AUG 2021"}
+        end={"AUG 2021"}
+        role={"Software Engineer"}
+        type={"Virtual Experience"}
+        company={"Goldman Sachs"}
+        desc={
+          "Cracked leaked password database that had different hashing types like SHA-256, MD5 etc. Using services like hashcat to run the passwords through different hashing algorithms and crack them using methods such as brute force."
+        }
+        tech={["Hashcat", "Cryptography"]}
+      />
+      <JobBento
+        icon={
+          "https://media.licdn.com/dms/image/C4E0BAQFN7ZGRjNcgeA/company-logo_400_400/0/1656681489601/jpmorganchase_logo?e=2147483647&v=beta&t=Cri68t3YNEgTwG2_BhKNbNhutV5x8Te9OWg2G31m5Es"
+        }
+        link={
+          "https://insidesherpa.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_u2pPtAhxvS8oQHQfT_1629460325328_completion_certificate.pdf"
+        }
+        start={"JULY 2021"}
+        end={"AUG 2021"}
+        role={"Software Engineer"}
+        type={"Virtual Work Experience"}
+        company={"JPMorgan"}
+        desc={
+          "Created and interface with a stock price data feed. Used JPMorgan Chase frameworks and tools. Displayed data visually for traders."
+        }
+        tech={["Typescript", "React", "Python", "JavaScript", "Git"]}
+      />
       <span className={styles.sectionTitle}>PROJECTS</span>
       <ProjectBento
         link={"https://github.com/Adriantobi/dotfiles/"}
@@ -117,127 +240,6 @@ export default function BentoGrid() {
           "No frameworks, no plugins, just HTML. This hand-coded portfolio from 2019 is a testament to my dedication and understanding of the web's building blocks."
         }
         images={["/adriansPortfoliov0.jpg"]}
-      />
-      <span className={styles.sectionTitle}>EXPERIENCE</span>
-      <JobBento
-        icon={
-          "https://media.licdn.com/dms/image/v2/C4D0BAQEU1YtNwozLbQ/company-logo_200_200/company-logo_200_200/0/1630538156604/jeffreyai_logo?e=1740009600&v=beta&t=WgC_4ZkqB85E1ek4GrscA5YlnnyeKeB8b-EC12uehGk"
-        }
-        link={"https://www.jeffreyai.com/"}
-        start={"MAR 2024"}
-        end={"PRESENT"}
-        role={"Angular Developer"}
-        type={"Full Time"}
-        company={"JeffreyAI"}
-        desc={
-          "As a front-end Angular developer, I craft a seamless user experience, from design to performance. I turn concepts into interactive interfaces, build reusable components, and ensure everything runs smoothly."
-        }
-        tech={[
-          "Angular",
-          "Typescript",
-          "Figma",
-          "React",
-          "Azure DevOps",
-          "Plasmo",
-          "Sass",
-          "Tailwind",
-        ]}
-      />
-      <JobBento
-        icon={
-          "https://media.licdn.com/dms/image/v2/D4E0BAQHtjb8OgAe35w/company-logo_200_200/company-logo_200_200/0/1688725653268/carbonandfinch_logo?e=1738800000&v=beta&t=eZr9PH_arU7r5BN5gRBvWoDH9Pd1hODRjPDWvRSc3a4"
-        }
-        link={"https://www.carbonandfinch.com/"}
-        start={"JAN 2024"}
-        end={"MAR 2024"}
-        role={"X++ Developer"}
-        type={"Full Time"}
-        company={"Carbon & Finch"}
-        desc={
-          "Identified and resolved bugs or errors within Dynamics AX or Dynamics 365 business applications. Also implemented new features and tailored existing modules to align with specific business processes or workflows."
-        }
-        tech={["X++", "Azure", "Microsoft Dynamics 365"]}
-      />
-      <JobBento
-        icon={
-          "https://media.licdn.com/dms/image/v2/D560BAQFHwiQouD_01A/company-logo_200_200/company-logo_200_200/0/1681903283657/epsom_ewell_hub_logo?e=1738800000&v=beta&t=FEcwN_agPZYhACGM8f06lLQJaqVoQSjoP4IPBbKJgwY"
-        }
-        link={"https://www.epsomandewellhub.com/"}
-        start={"JULY 2023"}
-        end={"SEP 2023"}
-        role={"Web Developer"}
-        type={"Volunteer"}
-        company={"Epsom & Ewell Hub"}
-        desc={
-          "Applied Wix and JavaScript proficiency to elevate a critical job-seeking platform, channeling a passion for coding and community impact. Worked collaboratively with a designer to integrate UI elements seamlessly, utilizing the Wix drag-and-drop interface and code editor."
-        }
-        tech={["JavaScript", "Wix"]}
-      />
-      <JobBento
-        icon={
-          "https://media.licdn.com/dms/image/v2/D560BAQHkiLWOxOvJ_g/company-logo_200_200/company-logo_200_200/0/1690172518168/moreton_bay_regional_council_logo?e=1740009600&v=beta&t=psiHW57v2eCll9mp3Lyb3JxpnXYj7YzwIm6jzSA_oFc"
-        }
-        link={
-          "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Moreton%20Bay%20Regional%20Council/7q8DN5enMzSHqLwev_Moreton%20Bay%20Regional%20Council_u2pPtAhxvS8oQHQfT_1681464876569_completion_certificate.pdf"
-        }
-        start={"MAR 2023"}
-        end={"APR 2023"}
-        role={"Web Developer"}
-        type={"Virtual Experience"}
-        company={"Moreton Bay"}
-        desc={
-          "From planning the website to creating a form section for user input. Explore UI/UX design for end users and further polished my web development skills."
-        }
-        tech={["Figma", "CSS", "HTML", "JavaScript"]}
-      />
-      <JobBento
-        icon={
-          "https://media.licdn.com/dms/image/v2/C4D0BAQGOMVo5-P5IHg/company-logo_200_200/company-logo_200_200/0/1674468940363/wedancevip_logo?e=1740009600&v=beta&t=FQU4c-X8YqQ6BdZKSUFh-jDMBlu3RqGn2VtCD1iiXts"
-        }
-        link={"https://www.wedance.vip"}
-        start={"JULY 2022"}
-        end={"SEP 2022"}
-        role={"Front-end Developer"}
-        type={"Internship"}
-        company={"WeDance"}
-        desc={
-          "Used Vue.js to fix bugs given by various tickets on the github codebase. Helped in designing and building the new WeDance version."
-        }
-        tech={["Vue.js", "CSS", "TypeScript"]}
-      />
-      <JobBento
-        icon={
-          "https://media.licdn.com/dms/image/v2/D4E0BAQG9L7InIQVZrQ/company-logo_200_200/company-logo_200_200/0/1722506756452/goldman_sachs_logo?e=1738800000&v=beta&t=lIJnZUeWG3ayCmC5JSYeu0h4VVXlfa6tufcdlKz_yqs"
-        }
-        link={
-          "https://insidesherpa.s3.amazonaws.com/completion-certificates/Goldman%20Sachs/NPdeQ43o8P9HJmJzg_Goldman%20Sachs_u2pPtAhxvS8oQHQfT_1629113234515_completion_certificate.pdf"
-        }
-        start={"AUG 2021"}
-        end={"AUG 2021"}
-        role={"Software Engineer"}
-        type={"Virtual Experience"}
-        company={"Goldman Sachs"}
-        desc={
-          "Cracked leaked password database that had different hashing types like SHA-256, MD5 etc. Using services like hashcat to run the passwords through different hashing algorithms and crack them using methods such as brute force."
-        }
-        tech={["Hashcat", "Cryptography"]}
-      />
-      <JobBento
-        icon={
-          "https://media.licdn.com/dms/image/C4E0BAQFN7ZGRjNcgeA/company-logo_400_400/0/1656681489601/jpmorganchase_logo?e=2147483647&v=beta&t=Cri68t3YNEgTwG2_BhKNbNhutV5x8Te9OWg2G31m5Es"
-        }
-        link={
-          "https://insidesherpa.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_u2pPtAhxvS8oQHQfT_1629460325328_completion_certificate.pdf"
-        }
-        start={"JULY 2021"}
-        end={"AUG 2021"}
-        role={"Software Engineer"}
-        type={"Virtual Work Experience"}
-        company={"JPMorgan"}
-        desc={
-          "Created and interface with a stock price data feed. Used JPMorgan Chase frameworks and tools. Displayed data visually for traders."
-        }
-        tech={["Typescript", "React", "Python", "JavaScript", "Git"]}
       />
       <span className={styles.more}>
         <TextLink
