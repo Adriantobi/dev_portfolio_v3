@@ -24,9 +24,7 @@ export default function BentoGrid() {
     <div className={styles.BentoGrid}>
       <span className={styles.sectionTitle}>EXPERIENCE</span>
       <JobBento
-        icon={
-          "https://media.licdn.com/dms/image/v2/C4D0BAQEU1YtNwozLbQ/company-logo_200_200/company-logo_200_200/0/1630538156604/jeffreyai_logo?e=1756339200&v=beta&t=wkxSUl4FLS3MU9aOHDVlzcWxVoJpIsXyRibped1FWxk"
-        }
+        icon={"/images/companies/jeffreyai_logo.jpg"}
         link={"https://www.jeffreyai.com/"}
         start={"MAR 2024"}
         end={"PRESENT"}
@@ -50,9 +48,7 @@ export default function BentoGrid() {
         ]}
       />
       <JobBento
-        icon={
-          "https://media.licdn.com/dms/image/v2/D4E0BAQHtjb8OgAe35w/company-logo_200_200/company-logo_200_200/0/1688725653268/carbonandfinch_logo?e=1753920000&v=beta&t=BVdhyO4TETm_lRB0HJ1AK6Zi6hyrFmf1S3H4X4IXivg"
-        }
+        icon={"/images/companies/carbonandfinch_logo.jpg"}
         link={"https://www.carbonandfinch.com/"}
         start={"JAN 2024"}
         end={"MAR 2024"}
@@ -65,9 +61,7 @@ export default function BentoGrid() {
         tech={["X++", "Azure", "Microsoft Dynamics 365", "C#"]}
       />
       <JobBento
-        icon={
-          "https://media.licdn.com/dms/image/v2/D560BAQFHwiQouD_01A/company-logo_200_200/company-logo_200_200/0/1681903283657/epsom_ewell_hub_logo?e=1753920000&v=beta&t=9Xd4HJv1bISU2dclZ3slbYLpL5pzDL492NzP5zoAeqk"
-        }
+        icon={"/images/companies/epsom_ewell_hub_logo.jpg"}
         link={"https://www.epsomandewellhub.com/"}
         start={"JULY 2023"}
         end={"SEP 2023"}
@@ -80,9 +74,7 @@ export default function BentoGrid() {
         tech={["JavaScript", "Wix"]}
       />
       <JobBento
-        icon={
-          "https://media.licdn.com/dms/image/v2/D560BAQHkiLWOxOvJ_g/company-logo_200_200/company-logo_200_200/0/1690172518168/moreton_bay_regional_council_logo?e=1756339200&v=beta&t=4XcxThXH5bGihyU37CYzYI6qcfIzqd1sXzyBWCg1B_4"
-        }
+        icon={"/images/companies/moreton_bay_regional_council_logo.jpg"}
         link={
           "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Moreton%20Bay%20Regional%20Council/7q8DN5enMzSHqLwev_Moreton%20Bay%20Regional%20Council_u2pPtAhxvS8oQHQfT_1681464876569_completion_certificate.pdf"
         }
@@ -97,9 +89,7 @@ export default function BentoGrid() {
         tech={["Figma", "CSS", "HTML", "JavaScript"]}
       />
       <JobBento
-        icon={
-          "https://media.licdn.com/dms/image/v2/C4D0BAQGOMVo5-P5IHg/company-logo_200_200/company-logo_200_200/0/1674468940363/wedancevip_logo?e=1756339200&v=beta&t=I6YV4k6f3w37tfuWRR9tXGMOnf89_uol6uuWBP2bURE"
-        }
+        icon={"/images/companies/wedancevip_logo.jpg"}
         link={"https://www.wedance.vip"}
         start={"JULY 2022"}
         end={"SEP 2022"}
@@ -112,9 +102,7 @@ export default function BentoGrid() {
         tech={["Vue.js", "CSS", "TypeScript"]}
       />
       <JobBento
-        icon={
-          "https://media.licdn.com/dms/image/v2/D4E0BAQG9L7InIQVZrQ/company-logo_200_200/company-logo_200_200/0/1722506756452/goldman_sachs_logo?e=1753920000&v=beta&t=eghmSi6f5lSChi-pNixBQ7faLjiQ7MKKHUUupYn_ops"
-        }
+        icon={"/images/companies/goldman_sachs_logo.jpg"}
         link={
           "https://insidesherpa.s3.amazonaws.com/completion-certificates/Goldman%20Sachs/NPdeQ43o8P9HJmJzg_Goldman%20Sachs_u2pPtAhxvS8oQHQfT_1629113234515_completion_certificate.pdf"
         }
@@ -129,9 +117,7 @@ export default function BentoGrid() {
         tech={["Hashcat", "Cryptography"]}
       />
       <JobBento
-        icon={
-          "https://media.licdn.com/dms/image/C4E0BAQFN7ZGRjNcgeA/company-logo_400_400/0/1656681489601/jpmorganchase_logo?e=2147483647&v=beta&t=Cri68t3YNEgTwG2_BhKNbNhutV5x8Te9OWg2G31m5Es"
-        }
+        icon={"/images/companies/jpmorganchase_logo.jpg"}
         link={
           "https://insidesherpa.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_JPMorgan%20Chase_u2pPtAhxvS8oQHQfT_1629460325328_completion_certificate.pdf"
         }
@@ -153,10 +139,10 @@ export default function BentoGrid() {
           "A neovim configuration built using kickstart.nvim and specialised to suit my needs as a developer."
         }
         images={[
-          "/nvimConfig1.png",
-          "/nvimConfig2.png",
-          "/nvimConfig3.png",
-          "/nvimConfig4.png",
+          "/images/projects/nvimConfig1.png",
+          "/images/projects/nvimConfig2.png",
+          "/images/projects/nvimConfig3.png",
+          "/images/projects/nvimConfig4.png",
         ]}
         unoptimized={true}
       />
@@ -166,7 +152,7 @@ export default function BentoGrid() {
         description={
           "RBBTClient is a JavaScript library designed for seamless interaction with RabbitMQ over WebSockets."
         }
-        images={["/rbbtClient.png"]}
+        images={["/images/projects/rbbtClient.png"]}
       />
       <ProjectBento
         link={"https://github.com/Adriantobi/cuery/"}
@@ -174,7 +160,7 @@ export default function BentoGrid() {
         description={
           "Cuery is a versatile command line utility designed to streamline the execution of commands by leveraging aliases stored in a configuration file."
         }
-        images={["/cueryCliTool.gif"]}
+        images={["/images/projects/cueryCliTool.gif"]}
         unoptimized={true}
       />
       <ProjectBento
@@ -183,7 +169,7 @@ export default function BentoGrid() {
         description={
           "Noodle is a study platform that allows you to choose from a variety of spaces, as well as listen to spotify and set tasks."
         }
-        images={["/noodle.png"]}
+        images={["/images/projects/noodle.png"]}
       />
       {/* <ProjectBento link={'https://travel-tempo.vercel.app/'} title={'Weather App'} description={'A React-powered Weather App, your go-to tool for weather updates and local exploration by helping you uncover nearby tourist attractions.'} images={'/weatherApp.png'} /> */}
       <ProjectBento
@@ -192,7 +178,7 @@ export default function BentoGrid() {
         description={
           "A church website built using Nextjs and prisma to display news and announcements."
         }
-        images={["/christEmbassyWallington.png"]}
+        images={["/images/projects/christEmbassyWallington.png"]}
       />
       <ProjectBento
         link={"https://monstr.ofneill.com/"}
@@ -200,7 +186,7 @@ export default function BentoGrid() {
         description={
           "Monstr is a web-based chat application that allows users to create and join disposable chat rooms."
         }
-        images={["/monstr.png"]}
+        images={["/images/projects/monstr.png"]}
       />
 
       <ProjectBento
@@ -209,13 +195,16 @@ export default function BentoGrid() {
         description={
           "A redesign and development of the Epsom and Ewell Hub official website, built using Wix."
         }
-        images={["/epsomAndEwellHub.png"]}
+        images={["/images/projects/epsomAndEwellHub.png"]}
       />
       <ProjectBento
         link={"https://photos.adriantd.com/"}
         title={"Photography Portfolio"}
         description={"A simple portfolio to display my film photography."}
-        images={["/photographyPortfolio1.png", "/photographyPortfolio2.png"]}
+        images={[
+          "/images/projects/photographyPortfolio1.png",
+          "/images/projects/photographyPortfolio2.png",
+        ]}
       />
       <ProjectBento
         link={"https://v2.adriantd.com/"}
@@ -223,7 +212,7 @@ export default function BentoGrid() {
         description={
           "A recent portfolio built using Nextjs displaying skills and experience. Styled using CSS Modules and deployed with vercel."
         }
-        images={["/adriansPortfoliov2.png"]}
+        images={["/images/projects/adriansPortfoliov2.png"]}
       />
       <ProjectBento
         link={"https://v1.adriantd.com/"}
@@ -231,7 +220,7 @@ export default function BentoGrid() {
         description={
           "A HTML portfolio, crafted in 2022. Witness the raw code and pixel-perfect design that fueled my early web development journey."
         }
-        images={["/adriansPortfoliov1.png"]}
+        images={["/images/projects/adriansPortfoliov1.png"]}
       />
       <ProjectBento
         link={"https://v0.adriantd.com/"}
@@ -239,7 +228,7 @@ export default function BentoGrid() {
         description={
           "No frameworks, no plugins, just HTML. This hand-coded portfolio from 2019 is a testament to my dedication and understanding of the web's building blocks."
         }
-        images={["/adriansPortfoliov0.jpg"]}
+        images={["/images/projects/adriansPortfoliov0.jpg"]}
       />
       <span className={styles.more}>
         <TextLink
@@ -252,9 +241,7 @@ export default function BentoGrid() {
           <GridItem
             type={"social"}
             link={"https://instagram.com/adrian.td"}
-            icon={
-              "https://media.licdn.com/dms/image/v2/C4E0BAQFt6KqGwvGCzg/company-logo_200_200/company-logo_200_200/0/1652805738201/instagram_logo?e=1752710400&v=beta&t=8JgYCFqKLqm4mGTLhlVy_pMpabnCIFVDpB62_DDlOfU"
-            }
+            icon={"/images/socials/instagram_logo.jpg"}
             size="2x2"
             header={"Instagram"}
             subheader={"@adrian.td"}
@@ -265,9 +252,7 @@ export default function BentoGrid() {
           <GridItem
             type={"social"}
             link={"https://github.com/Adriantobi"}
-            icon={
-              "https://media.licdn.com/dms/image/v2/C560BAQFmuLSyL1nlPA/company-logo_200_200/company-logo_200_200/0/1678231359043/github_logo?e=1752710400&v=beta&t=BNzFZ7pCf11QCbjvBFCp5QolgSwn6ofMFXcRB_m3Xo0"
-            }
+            icon={"/images/socials/github_logo.jpg"}
             size="2x1"
             header={"GitHub"}
             subheader={"@AdrianTobi"}
@@ -277,9 +262,7 @@ export default function BentoGrid() {
           <GridItem
             type={"social"}
             link={"https://twitter.com/adriantdoav"}
-            icon={
-              "https://media.licdn.com/dms/image/v2/D560BAQHQCdS1oXcD2Q/company-logo_200_200/company-logo_200_200/0/1691021621180?e=1752710400&v=beta&t=YpPO_wUae8ksWaA2srwbaqEOkvWBzTaWgT_AMkYjR0s"
-            }
+            icon={"/images/socials/x_logo.jpg"}
             size="2x1"
             header={"X"}
             subheader={"@adriantdoav"}
@@ -289,9 +272,7 @@ export default function BentoGrid() {
           <GridItem
             type={"social"}
             link={"https://www.linkedin.com/in/adriantd"}
-            icon={
-              "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1752710400&v=beta&t=7zsZh8voIwh9urPDzRtKOVlMaTEY8aDlG3SzdhTwMUA"
-            }
+            icon={"/images/socials/linkedin_logo.jpg"}
             size="2x2"
             header={"LinkedIn"}
             subheader={"@adriantd"}
@@ -304,9 +285,7 @@ export default function BentoGrid() {
             link={
               "https://www.xiaohongshu.com/user/profile/616c9247000000000201ca3e"
             }
-            icon={
-              "https://media.licdn.com/dms/image/v2/D4D0BAQE74kaI5AzDRQ/company-logo_200_200/company-logo_200_200/0/1709274233604/xiaohongshu_for_business_logo?e=1752710400&v=beta&t=mfGenVh4rwhLjdpSxMRC9jbphzomN6YOyqLFlgLyuvI"
-            }
+            icon={"/images/socials/xiaohongshu_logo.jpg"}
             size="2x4"
             header={"小红书"}
             subheader={"@adrian.td"}
@@ -320,9 +299,7 @@ export default function BentoGrid() {
           <GridItem
             type={"social"}
             link={"https://weibo.com/u/7696376222?ssl_rnd=1660044172.0373"}
-            icon={
-              "https://media.licdn.com/dms/image/v2/C560BAQG0MvELPXwlkQ/company-logo_200_200/company-logo_200_200/0/1630861157743/_logo?e=1752710400&v=beta&t=KsKIGcOf79FN3ab5OH6gHtI56vzfa0YIl47pDoSLMjw"
-            }
+            icon={"/images/socials/weibo_logo.jpg"}
             size="2x1"
             header={"Weibo"}
             subheader={"@adriantobi"}
@@ -332,9 +309,7 @@ export default function BentoGrid() {
           <GridItem
             type={"social"}
             link={"https://letterboxd.com/adriantd"}
-            icon={
-              "https://media.licdn.com/dms/image/v2/C560BAQE7vwWktMc_Sw/company-logo_200_200/company-logo_200_200/0/1630615178595?e=1752710400&v=beta&t=ijZKMxC7ROzRsieJ3TUC1mAdDX2AbfiUz1XmqEHrHVg"
-            }
+            icon={"/images/socials/letterboxd_logo.jpg"}
             size="2x1"
             header={"Letterboxd"}
             subheader={"@adriantd"}
