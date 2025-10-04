@@ -286,19 +286,6 @@ export default function BentoGrid() {
               "https://www.xiaohongshu.com/user/profile/616c9247000000000201ca3e"
             }
             icon={"/images/socials/xiaohongshu_logo.jpg"}
-            size="2x2"
-            header={"小红书"}
-            subheader={"@adrian.td"}
-            content={"life is one big conundrum."}
-            buttonContent={"Follow"}
-            buttonColour={"244, 10, 11"}
-          />
-          {/*<GridItem
-            type={"social"}
-            link={
-              "https://www.xiaohongshu.com/user/profile/616c9247000000000201ca3e"
-            }
-            icon={"/images/socials/xiaohongshu_logo.jpg"}
             size="2x4"
             header={"小红书"}
             subheader={"@adrian.td"}
@@ -308,7 +295,7 @@ export default function BentoGrid() {
             bgImage={
               "https://lh3.googleusercontent.com/pw/AP1GczNJgbOnZVtg7pf-asKYwQBxMOYCrx8Ineoe8sPfmZerlUd3VX3uMmv2XWTskNuzBoAe-HSrA7D9qx0hWYowGMMYO8wqRQeI6v7wZMdXCs9tu9pBDh6R=w2400"
             }
-          />*/}
+          />
           <GridItem
             type={"social"}
             link={"https://weibo.com/u/7696376222?ssl_rnd=1660044172.0373"}
@@ -319,16 +306,16 @@ export default function BentoGrid() {
             buttonContent={"Follow"}
             buttonColour={"231, 0, 18"}
           />
-          {/*<GridItem
+          <GridItem
             type={"social"}
-            link={"https://letterboxd.com/adriantd"}
-            icon={"/images/socials/letterboxd_logo.jpg"}
+            link={"https://youtube.com/@adriantdoav"}
+            icon={"/images/socials/youtube_logo.jpg"}
             size="2x1"
-            header={"Letterboxd"}
-            subheader={"@adriantd"}
+            header={"YouTube"}
+            subheader={"@adriantdoav"}
             buttonContent={"Follow"}
-            buttonColour={"82, 100, 118"}
-          />*/}
+            buttonColour={"244, 10, 11"}
+          />
         </>
       ) : null}
     </div>
