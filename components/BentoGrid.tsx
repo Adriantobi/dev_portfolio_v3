@@ -314,7 +314,7 @@ export default function BentoGrid() {
             header={"YouTube"}
             subheader={"@adriantdoav"}
             buttonContent={"Follow"}
-            buttonColour={"244, 10, 11"}
+            buttonColour={"254, 0, 50"}
           />
         </>
       ) : null}
