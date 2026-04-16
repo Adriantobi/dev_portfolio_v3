@@ -1,6 +1,12 @@
 .footer {
   font-size: 12px;
-  opacity: .75;
-  padding: 0 15px;
+  opacity: 0.5;
+  padding: 16px 18px;
   max-width: 448px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturation));
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturation));
+  border-radius: 16px;
+  border: 1px solid var(--glass-border);
+  line-height: 1.6;
 }

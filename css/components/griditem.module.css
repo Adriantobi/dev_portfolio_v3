@@ -1,15 +1,22 @@
 .GridItem {
   overflow: hidden;
   display: flex;
-  background: rgb(var(--grid-item));
-  border-radius: 16px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturation));
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturation));
+  border-radius: 20px;
   flex-direction: column;
-  padding: 15px;
+  padding: 18px;
   min-width: 150px;
   min-height: 75px;
   cursor: pointer;
   gap: 8px;
-  transition: background ease-in-out 150ms;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid var(--glass-border);
+  box-shadow: 
+    0 1px 3px var(--glass-shadow),
+    0 4px 20px var(--glass-shadow),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 .GridItem a {
@@ -21,19 +28,34 @@
 }
 
 .GridItem:hover {
-  background: rgb(var(--grid-item-hover));
+  background: rgba(var(--grid-item), 0.85);
+  transform: translateY(-2px);
+  box-shadow: 
+    0 4px 12px var(--glass-shadow-hover),
+    0 8px 32px var(--glass-shadow-hover),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15);
 }
 
 .projectCard,
 .jobCard {
   background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
   border: 1px solid transparent;
+  box-shadow: none;
 }
 
 .projectCard:hover,
 .jobCard:hover {
-  background: rgb(var(--grid-item), 0.25);
-  border: 1px solid rgb(var(--grid-item), 0.95);
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturation));
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturation));
+  border: 1px solid var(--glass-border);
+  transform: translateY(-2px);
+  box-shadow: 
+    0 4px 20px var(--glass-shadow-hover),
+    0 8px 40px var(--glass-shadow),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
 
 .headingWrapper {
@@ -46,22 +68,32 @@
 .iconWrapper {
   width: max-content;
   height: max-content;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 2px 12px var(--glass-shadow);
+  border: 1px solid var(--glass-border);
 }
 
 .buttonInfo {
   display: flex;
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: 500;
   justify-content: center;
   width: fit-content;
   align-items: center;
-  border-radius: 6px;
-  padding: 6px 10px;
+  border-radius: 20px;
+  padding: 6px 14px;
   color: #fff;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.buttonInfo:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .contentWrapper {

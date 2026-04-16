@@ -13,12 +13,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
   min-height: 48px;
   height: 48px;
   min-width: 48px;
   width: 48px;
+  box-shadow: 0 2px 12px var(--glass-shadow);
+  border: 1px solid var(--glass-border);
 }
 
 .textWrapper {
@@ -80,10 +82,21 @@
 }
 
 .tech {
-  background: rgb(var(--tech-stack));
-  padding: 4px 10px;
-  border-radius: 25px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px) saturate(var(--glass-saturation));
+  -webkit-backdrop-filter: blur(12px) saturate(var(--glass-saturation));
+  padding: 5px 12px;
+  border-radius: 20px;
   font-size: 12px;
+  font-weight: 500;
+  border: 1px solid var(--glass-border);
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 4px var(--glass-shadow);
+}
+
+.tech:hover {
+  background: rgba(var(--accent-color), 0.1);
+  border-color: rgba(var(--accent-color), 0.3);
 }
 
 @media (width < 520px) {

@@ -24,7 +24,7 @@
 }
 
 .TextLink:hover {
-  opacity: .75;
+  color: rgba(var(--accent-color), 1);
 }
 
 .TextLink:hover .innerWrapper {

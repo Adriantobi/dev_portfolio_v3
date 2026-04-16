@@ -61,7 +61,8 @@
   align-items: center;
   height: max-content;
   overflow: hidden;
-  border-radius: 8px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px var(--glass-shadow);
 }
 
 .imageBento {
@@ -89,22 +90,25 @@
 .imageSlide {
   width: auto !important;
   height: 40px;
-  border-radius: 6px !important;
+  border-radius: 8px !important;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  transition: border 150ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  border: 2px solid transparent;
+  box-shadow: 0 2px 8px var(--glass-shadow);
 }
 
 .imageSlide img {
   height: 100% !important;
   width: auto !important;
-  transition: transform 150ms ease-in-out;
+  transition: transform 200ms ease-in-out;
 }
 
 .currentImage {
-  border: 2px solid rgb(var(--blur-rgb));
+  border: 2px solid rgba(var(--accent-color), 0.6);
+  box-shadow: 0 0 0 2px rgba(var(--accent-color), 0.15);
 }
 
 .miniImageWrapper::-webkit-scrollbar {

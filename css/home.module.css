@@ -75,22 +75,30 @@
 .socials a {
   display: flex;
   align-items: center;
+  transition: all 0.2s ease;
 }
 
 .socials a:hover {
-  opacity: .75;
+  color: rgba(var(--accent-color), 1);
+  transform: translateY(-1px);
 }
 
 .blur {
-  width: 480px;
-  height: 360px;
+  width: 600px;
+  height: 600px;
   border-radius: 100%;
-  background: rgb(var(--blur-rgb));
+  background: radial-gradient(
+    circle,
+    rgba(var(--accent-color), 0.15) 0%,
+    rgba(var(--accent-color), 0.05) 40%,
+    transparent 70%
+  );
   position: absolute;
-  filter: blur(150px);
-  opacity: .95;
-  top: 15%;
-  left: -50%;
+  filter: blur(60px);
+  opacity: 1;
+  top: 0%;
+  left: -40%;
+  pointer-events: none;
 }
 
 .skills {
@@ -112,25 +120,38 @@
 }
 
 .codeIcon {
-  background: rgb(var(--blur-rgb)); 
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturation));
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturation));
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 100%;
   padding: 4px;
+  border: 1px solid var(--glass-border);
 }
 
 .langList {
   font-size: 12px;
-  opacity: .75;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
 }
 
-.langItem::after {
-  content: ' • ';
+.langItem {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px) saturate(var(--glass-saturation));
+  -webkit-backdrop-filter: blur(12px) saturate(var(--glass-saturation));
+  padding: 4px 10px;
+  border-radius: 12px;
+  border: 1px solid var(--glass-border);
+  font-weight: 500;
+  transition: all 0.2s ease;
 }
 
-.langItem:last-child::after {
-  content: '';
+.langItem:hover {
+  background: rgba(var(--accent-color), 0.1);
+  border-color: rgba(var(--accent-color), 0.3);
 }
 
 .scrollSection {
