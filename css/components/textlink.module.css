@@ -20,11 +20,11 @@
   width: max-content;
   height: 100%;
   flex-direction: column;
-  transition: all 250ms ease-in-out;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .TextLink:hover {
-  opacity: .75;
+  opacity: 0.85;
 }
 
 .TextLink:hover .innerWrapper {
@@ -32,7 +32,7 @@
 }
 
 .TextLink:hover .innerWrapper span svg {
-  transform: rotate(-45deg);
+  transform: rotate(-45deg) scale(1.1);
 }
 
 .TextLink span {
@@ -42,5 +42,6 @@
 }
 
 .TextLink svg {
-  transition: all 250ms ease-in-out;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  color: rgb(var(--accent-rgb));
 }

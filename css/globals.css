@@ -1,17 +1,31 @@
 :root {
   --max-width: 1100px;
-  --border-radius: 12px;
+  --border-radius: 20px;
   --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
     "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 250, 250, 250;
-  --background-end-rgb: 255, 255, 255;
-  --blur-rgb: 181, 183, 179;
-  --grid-item: 210, 210, 212;
-  --grid-item-hover: 203, 203, 203;
-  --tech-stack: 211, 211, 211;
+  --foreground-rgb: 30, 30, 35;
+  --background-start-rgb: 240, 242, 245;
+  --background-end-rgb: 225, 228, 232;
+  --blur-rgb: 200, 205, 215;
+  --grid-item: 255, 255, 255;
+  --grid-item-hover: 250, 252, 255;
+  --tech-stack: 240, 242, 248;
+
+  /* Liquid Glass Variables */
+  --glass-bg: rgba(255, 255, 255, 0.45);
+  --glass-bg-hover: rgba(255, 255, 255, 0.6);
+  --glass-border: rgba(255, 255, 255, 0.65);
+  --glass-border-inner: rgba(255, 255, 255, 0.9);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.08), 
+                  0 2px 8px rgba(0, 0, 0, 0.04),
+                  inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  --glass-shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.12), 
+                        0 4px 12px rgba(0, 0, 0, 0.06),
+                        inset 0 1px 0 rgba(255, 255, 255, 0.9);
+  --glass-blur: 20px;
+  --glass-saturate: 180%;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -42,17 +56,34 @@
   --callout-border-rgb: 172, 175, 176;
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135;
+
+  /* Accent color */
+  --accent-rgb: 0, 122, 255;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 11, 11, 10;
-    --background-end-rgb: 0, 0, 0;
-    --blur-rgb: 35, 35, 45;
-    --grid-item: 50, 48, 52;
-    --grid-item-hover: 45, 43, 47;
-    --tech-stack: 36, 36, 36;
+    --foreground-rgb: 245, 245, 250;
+    --background-start-rgb: 15, 15, 20;
+    --background-end-rgb: 5, 5, 10;
+    --blur-rgb: 40, 42, 55;
+    --grid-item: 45, 45, 55;
+    --grid-item-hover: 55, 55, 65;
+    --tech-stack: 50, 52, 60;
+
+    /* Liquid Glass Variables - Dark Mode */
+    --glass-bg: rgba(40, 40, 50, 0.5);
+    --glass-bg-hover: rgba(55, 55, 68, 0.6);
+    --glass-border: rgba(255, 255, 255, 0.12);
+    --glass-border-inner: rgba(255, 255, 255, 0.2);
+    --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.35), 
+                    0 2px 8px rgba(0, 0, 0, 0.2),
+                    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    --glass-shadow-hover: 0 12px 40px rgba(0, 0, 0, 0.45), 
+                          0 4px 12px rgba(0, 0, 0, 0.25),
+                          inset 0 1px 0 rgba(255, 255, 255, 0.12);
+    --glass-blur: 24px;
+    --glass-saturate: 150%;
 
     --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
     --secondary-glow: linear-gradient(
@@ -78,6 +109,9 @@
     --callout-border-rgb: 108, 108, 108;
     --card-rgb: 100, 100, 100;
     --card-border-rgb: 200, 200, 200;
+
+    /* Accent color - dark */
+    --accent-rgb: 48, 142, 255;
   }
 }
 
@@ -99,12 +133,17 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: 
+    radial-gradient(ellipse 120% 80% at 50% 0%, rgba(var(--accent-rgb), 0.08), transparent 50%),
+    radial-gradient(ellipse 80% 60% at 80% 20%, rgba(var(--accent-rgb), 0.05), transparent 40%),
+    radial-gradient(ellipse 60% 50% at 20% 80%, rgba(var(--blur-rgb), 0.3), transparent 50%),
+    linear-gradient(
+      180deg,
+      rgb(var(--background-start-rgb)) 0%,
+      rgb(var(--background-end-rgb)) 100%
+    );
+  background-attachment: fixed;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11';
 }
 
 a {
@@ -113,12 +152,24 @@ a {
 }
 
 ::selection {
-  color: #323232;
-  background-color: #626262;
+  color: #fff;
+  background-color: rgb(var(--accent-rgb));
 }
 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
+  }
+  
+  body {
+    background: 
+      radial-gradient(ellipse 120% 80% at 50% 0%, rgba(var(--accent-rgb), 0.12), transparent 50%),
+      radial-gradient(ellipse 80% 60% at 80% 20%, rgba(var(--accent-rgb), 0.08), transparent 40%),
+      radial-gradient(ellipse 60% 50% at 20% 80%, rgba(60, 60, 90, 0.4), transparent 50%),
+      linear-gradient(
+        180deg,
+        rgb(var(--background-start-rgb)) 0%,
+        rgb(var(--background-end-rgb)) 100%
+      );
   }
 }

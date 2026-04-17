@@ -1,24 +1,31 @@
 .content a {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 12px;
 }
 
 .header {
   display: flex;
-  gap: 10px;
+  gap: 12px;
 }
 
 .iconWrapper {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 8px;
+  border-radius: 12px;
   overflow: hidden;
-  min-height: 48px;
-  height: 48px;
-  min-width: 48px;
-  width: 48px;
+  min-height: 52px;
+  height: 52px;
+  min-width: 52px;
+  width: 52px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08), inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.content:hover .iconWrapper {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12), inset 0 0 0 1px rgba(255, 255, 255, 0.15);
 }
 
 .textWrapper {
@@ -51,16 +58,17 @@
 }
 
 .innerWrapper svg {
-  transition: all 250ms ease-in-out;
+  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  color: rgb(var(--accent-rgb));
 }
 
 .jobLink:hover .innerWrapper, .content:hover .innerWrapper  {
   transform: translateY(-1.25em);
-  opacity: .75;
+  opacity: 0.85;
 }
 
 .jobLink:hover .innerWrapper svg, .content:hover .innerWrapper svg {
-  transform: rotate(-45deg);
+  transform: rotate(-45deg) scale(1.1);
 }
 
 .timeLine {
@@ -76,14 +84,26 @@
 .technologies {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 6px;
 }
 
 .tech {
-  background: rgb(var(--tech-stack));
-  padding: 4px 10px;
-  border-radius: 25px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px) saturate(150%);
+  -webkit-backdrop-filter: blur(12px) saturate(150%);
+  border: 1px solid var(--glass-border);
+  padding: 5px 12px;
+  border-radius: 20px;
   font-size: 12px;
+  font-weight: 500;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.tech:hover {
+  background: var(--glass-bg-hover);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
 @media (width < 520px) {
